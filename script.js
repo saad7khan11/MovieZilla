@@ -570,7 +570,6 @@ function handleFilter(filter) {
 }
 
 videoFrame.addEventListener('load', function() { embedLoader.classList.add('hidden'); });
-videoFrame.addEventListener('load', function() { embedLoader.classList.add('hidden'); });
 videoFrame.addEventListener('error', function() { embedLoader.classList.add('hidden'); embedError.textContent = 'Failed to load video from ' + SOURCES[currentSource].name + '. Try another source.'; embedError.classList.remove('hidden'); });
 backBtn.addEventListener('click', goHome);
 sourceBtn.addEventListener('click', function() {
