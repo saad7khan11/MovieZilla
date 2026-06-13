@@ -191,10 +191,13 @@ const contentData = [
 
 const SOURCES = [
     { name: 'Source 1', url: 'https://streamimdb.ru/embed/movie/', idType: 'imdb' },
-    { name: 'Source 2', url: 'https://gemma416okl.com/play/', idType: 'imdb' }
+    { name: 'Source 2', url: 'https://gemma416okl.com/play/', idType: 'imdb' },
+    { name: 'VidEasy', url: 'https://player.videasy.net/', idType: 'tmdb' }
 ];
 let currentSource = 1;
 const ITEMS_PER_LOAD = 10;
+var currentEpisode = 1;
+var currentSeason = 1;
 
 var TMDB_API_KEY = ''; // Set your TMDB API v3 key at https://www.themoviedb.org/settings/api
 var TMDB_IMG_BASE = 'https://image.tmdb.org/t/p/w500';
@@ -505,6 +508,12 @@ function buildEmbedUrl(item) {
         embedError.classList.remove('hidden');
         return '';
     }
+    if (source.name === 'VidEasy') {
+        if (item.type === 'series') {
+            return source.url + 'tv/' + id + '/' + currentSeason + '/' + currentEpisode;
+        }
+        return source.url + 'movie/' + id;
+    }
     return source.url + id;
 }
 
@@ -513,6 +522,8 @@ function openWatch(id) {
     if (!item) return;
 
     currentItem = item;
+    currentEpisode = 1;
+    currentSeason = 1;
     sourceBtn.textContent = SOURCES[currentSource].name;
     watchMetaTitle.textContent = item.title + ' (' + item.year + ')';
     watchTitle.textContent = 'Now Playing - ' + item.title;
@@ -524,6 +535,7 @@ function openWatch(id) {
     watchView.classList.remove('hidden');
     embedError.textContent = '';
     embedError.classList.add('hidden');
+    updateEpisodeVisibility();
     loadPlayer();
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -543,6 +555,46 @@ function goHome() {
     videoFrame.src = '';
     currentItem = null;
     window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderEpisodes() {
+    var container = document.getElementById('episodeList');
+    if (!container) return;
+    container.innerHTML = '';
+    for (var i = 1; i <= 24; i++) {
+        var btn = document.createElement('button');
+        btn.className = 'episode-btn' + (i === currentEpisode ? ' active' : '');
+        btn.textContent = i;
+        btn.dataset.episode = i;
+        btn.addEventListener('click', function() { selectEpisode(parseInt(this.dataset.episode)); });
+        container.appendChild(btn);
+    }
+}
+
+function selectEpisode(num) {
+    currentEpisode = num;
+    renderEpisodes();
+    if (currentItem && SOURCES[currentSource].name === 'VidEasy') {
+        var url = buildEmbedUrl(currentItem);
+        if (!url) return;
+        embedLoader.classList.remove('hidden');
+        embedError.textContent = '';
+        embedError.classList.add('hidden');
+        videoFrame.src = url;
+    }
+}
+
+function updateEpisodeVisibility() {
+    var el = document.getElementById('episodeSelector');
+    if (!el) return;
+    var isVidEasy = SOURCES[currentSource].name === 'VidEasy';
+    var isSeries = currentItem && currentItem.type === 'series';
+    if (isVidEasy && isSeries) {
+        el.classList.remove('hidden');
+        renderEpisodes();
+    } else {
+        el.classList.add('hidden');
+    }
 }
 
 function handleFilter(filter) {
@@ -574,6 +626,7 @@ sourceBtn.addEventListener('click', function() {
     currentSource = (currentSource + 1) % SOURCES.length;
     sourceBtn.textContent = SOURCES[currentSource].name;
     if (currentItem) {
+        updateEpisodeVisibility();
         var url = buildEmbedUrl(currentItem);
         if (!url) return;
         embedLoader.classList.remove('hidden');

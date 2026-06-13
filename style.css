@@ -764,6 +764,52 @@ img { max-width: 100%; display: block; }
     margin-top: 6px; align-items: center;
 }
 
+.episode-selector {
+    margin-top: 12px;
+    padding: 12px 0;
+    border-top: 1px solid var(--border-color);
+}
+
+.episode-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+}
+
+.episode-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.episode-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.episode-btn:hover {
+    border-color: var(--accent-cyan);
+    color: var(--accent-cyan);
+}
+
+.episode-btn.active {
+    background: var(--accent-cyan);
+    color: #000;
+    border-color: var(--accent-cyan);
+}
+
 /* ========== FOOTER ========== */
 .footer {
     background: var(--bg-secondary);
