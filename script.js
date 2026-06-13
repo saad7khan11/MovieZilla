@@ -624,27 +624,32 @@ videoFrame.addEventListener('load', function() { embedLoader.classList.add('hidd
 videoFrame.addEventListener('error', function() { embedLoader.classList.add('hidden'); embedError.textContent = 'Failed to load video from ' + SOURCES[currentSource].name + '. Try another source.'; embedError.classList.remove('hidden'); });
 backBtn.addEventListener('click', goHome);
 fsBtn.addEventListener('click', function() {
-    var el = document.documentElement;
+    var wrap = document.querySelector('.watch-player-wrap');
     if (!document.fullscreenElement && !document.webkitFullscreenElement && !document.mozFullScreenElement) {
-        if (el.requestFullscreen) {
-            el.requestFullscreen().catch(function(err) { console.log('FS error:', err); });
-        } else if (el.webkitRequestFullscreen) {
-            el.webkitRequestFullscreen();
-        } else if (el.mozRequestFullScreen) {
-            el.mozRequestFullScreen();
-        } else if (el.msRequestFullscreen) {
-            el.msRequestFullscreen();
+        if (wrap && wrap.requestFullscreen) {
+            wrap.requestFullscreen().catch(function(){});
+        } else if (document.documentElement.requestFullscreen) {
+            document.documentElement.requestFullscreen().catch(function(){});
+        } else if (document.documentElement.webkitRequestFullscreen) {
+            document.documentElement.webkitRequestFullscreen();
+        } else if (document.documentElement.mozRequestFullScreen) {
+            document.documentElement.mozRequestFullScreen();
         }
     } else {
         if (document.exitFullscreen) {
-            document.exitFullscreen().catch(function(err) { console.log('FS exit error:', err); });
+            document.exitFullscreen().catch(function(){});
         } else if (document.webkitExitFullscreen) {
             document.webkitExitFullscreen();
         } else if (document.mozCancelFullScreen) {
             document.mozCancelFullScreen();
-        } else if (document.msExitFullscreen) {
-            document.msExitFullscreen();
         }
+    }
+});
+
+popBtn.addEventListener('click', function() {
+    if (currentItem) {
+        var url = buildEmbedUrl(currentItem);
+        if (url) window.open(url, '_blank');
     }
 });
 

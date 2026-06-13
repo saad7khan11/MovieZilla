@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieZilla - Watch Movies & Web Series</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="/" class="logo" id="logoLink">MovieZilla</a>
+                <ul class="nav-links">
+                    <li><a href="/" class="active" data-filter="all">Home</a></li>
+                    <li><a href="/" data-filter="movie">Movies</a></li>
+                    <li><a href="/" data-filter="series">Web Series</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="search-box">
+                    <span class="search-icon">&#x1F50D;</span>
+                    <input type="text" id="searchInput" placeholder="Search movies & series..." autocomplete="off">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main id="homeView">
+        <section class="hero">
+            <div class="hero-bg">
+                <div class="hero-particle"></div>
+                <div class="hero-particle"></div>
+                <div class="hero-particle"></div>
+                <div class="hero-particle"></div>
+                <div class="hero-particle"></div>
+                <div class="hero-particle"></div>
+                <div class="hero-particle"></div>
+                <div class="hero-particle"></div>
+                <div class="hero-particle"></div>
+                <div class="hero-particle"></div>
+                <div class="hero-glow glow-1"></div>
+                <div class="hero-glow glow-2"></div>
+                <div class="hero-glow glow-3"></div>
+            </div>
+            <div class="hero-content">
+                <div class="hero-badge-new">&#9889; 28 Titles Available</div>
+                <h1 class="hero-title">Welcome to <span class="gradient-text">MovieZilla</span></h1>
+                <p class="hero-subtitle">Stream movies & web series in HD — Hindi & English audio with subtitles</p>
+                <div class="hero-badges">
+                    <span class="badge badge-cyan">&#x25B6; Hindi Audio</span>
+                    <span class="badge badge-pink">&#x25B6; English Audio</span>
+                    <span class="badge badge-purple">&#x25B6; Multi-Quality</span>
+                    <span class="badge badge-green">&#x25B6; Subtitles</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section" id="contentSection">
+            <div class="container">
+                <div class="search-header hidden" id="searchHeader">
+                    <h2 class="section-title" id="searchResultsTitle">Search Results</h2>
+                    <span class="search-clear" id="searchClear">Clear</span>
+                </div>
+                <div id="browseView">
+                    <div id="categoryRows"></div>
+                </div>
+                <div id="searchResults" class="search-results-grid hidden"></div>
+            </div>
+        </section>
+    </main>
+
+    <div id="watchView" class="watch-view hidden">
+        <div class="watch-container">
+            <div class="watch-topbar">
+                <button class="back-btn" id="backBtn">&larr; Back</button>
+                <span class="watch-title" id="watchTitle">Now Playing</span>
+                <button class="source-btn" id="sourceBtn">Source 1</button>
+            </div>
+            <div class="watch-player-wrap">
+                <div class="watch-player-container">
+                    <iframe id="videoFrame" src="" referrerpolicy="origin"
+                        sandbox="allow-scripts allow-same-origin allow-forms"
+                        frameborder="0" allowfullscreen
+                        allow="autoplay; fullscreen; picture-in-picture" loading="lazy">
+                    </iframe>
+                    <div class="embed-loader" id="embedLoader">
+                        <div class="loader-ring"></div>
+                        <p class="loader-text">Connecting to stream...</p>
+                    </div>
+                    <div class="embed-error hidden" id="embedError">
+                        <p class="error-text">Stream unavailable</p>
+                        <p class="error-sub">Try again later</p>
+                    </div>
+                </div>
+            </div>
+            <div class="watch-meta-section">
+                <div class="watch-meta">
+                    <h2 class="watch-meta-title" id="watchMetaTitle">Title</h2>
+                    <div class="watch-meta-info" id="watchMetaInfo"></div>
+                </div>
+                <div class="disclaimer">Ignore the ads and do not gamble. It is recommended to use an ad blocker.</div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">MovieZilla</div>
+                <p class="footer-text">2026 MovieZilla - Powered by third-party sources</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

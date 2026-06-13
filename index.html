@@ -82,6 +82,7 @@
                 <span class="watch-title" id="watchTitle">Now Playing</span>
                 <button class="source-btn" id="sourceBtn">Source 1</button>
                 <button class="fs-btn" id="fsBtn" title="Fullscreen">&#x26F6;</button>
+                <button class="fs-btn" id="popBtn" title="Open in new window">&#x2197;</button>
             </div>
             <div class="disclaimer">Ad blocker recommended. Ignore ads and do not gamble.</div>
             <div class="disclaimer" style="margin-top:8px;margin-bottom:12px;">If the video is not in English, audio is missing, or subtitles are not displaying, press the <strong>Source</strong> button above to switch to the alternate source for improved playback.</div>
@@ -89,8 +90,9 @@
                 <div class="watch-player-container">
                     <iframe id="videoFrame" src=""
                          frameborder="0" allowfullscreen
-                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; display-capture"
-                        referrerpolicy="no-referrer-when-downgrade">
+                        allow="autoplay; fullscreen; picture-in-picture"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        style="background:#000;">
                     </iframe>
                     <div class="embed-loader" id="embedLoader">
                         <div class="loader-ring"></div>
