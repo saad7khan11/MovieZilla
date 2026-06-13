@@ -194,7 +194,7 @@ const SOURCES = [
     { name: 'Source 2', url: 'https://gemma416okl.com/play/', idType: 'imdb' },
     { name: 'VidEasy', url: 'https://www.videasy.to/embed/', idType: 'imdb' }
 ];
-let currentSource = 1;
+let currentSource = 2;
 const ITEMS_PER_LOAD = 10;
 var currentEpisode = 1;
 var currentSeason = 1;
