@@ -233,6 +233,7 @@ const ROW_CONFIG = [
     { id: 'trending', title: 'Trending Now', type: null },
     { id: 'new', title: 'New Releases', type: null, filter: function(item) { return item.year >= 2022; } },
     { id: 'toprated', title: 'Top Rated', type: null, filter: function(item) { return parseFloat(item.rating) >= 8.2; } },
+    { id: 'korean', title: 'K-Dramas & Korean', type: null, filter: function(item) { return item.langs.some(function(l) { return l === 'Korean'; }); } },
     { id: 'movies', title: 'Movies', type: 'movie' },
     { id: 'series', title: 'Web Series', type: 'series' },
     { id: 'classics', title: 'Classics', type: null, filter: function(item) { return item.year < 2000; } }
