@@ -9,8 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="noise-overlay"></div>
-
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-left">
@@ -30,7 +28,6 @@
         </div>
     </nav>
 
-    <!-- HOME -->
     <main id="homeView">
         <section class="hero">
             <div class="hero-bg">
@@ -49,7 +46,7 @@
                 <div class="hero-glow glow-3"></div>
             </div>
             <div class="hero-content">
-                <div class="hero-badge-new">&#9889; 28 Titles Available</div>
+                <div class="hero-badge-new">&#9889; 180 Titles Available</div>
                 <h1 class="hero-title">Welcome to <span class="gradient-text">MovieZilla</span></h1>
                 <p class="hero-subtitle">Stream movies & web series in HD — Hindi & English audio with subtitles</p>
                 <div class="hero-badges">
@@ -61,30 +58,29 @@
             </div>
         </section>
 
-        <section class="content-section">
+        <section class="content-section" id="contentSection">
             <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title" id="sectionTitle">All Content</h2>
-                    <div class="filter-tabs">
-                        <button class="filter-btn active" data-filter="all">All</button>
-                        <button class="filter-btn" data-filter="movie">Movies</button>
-                        <button class="filter-btn" data-filter="series">Web Series</button>
-                    </div>
+                <div class="search-header hidden" id="searchHeader">
+                    <h2 class="section-title" id="searchResultsTitle">Search Results</h2>
+                    <span class="search-clear" id="searchClear">Clear</span>
                 </div>
-                <div class="movie-grid" id="movieGrid"></div>
+                <div id="browseView">
+                    <div id="categoryRows"></div>
+                </div>
+                <div id="searchResults" class="search-results-grid hidden"></div>
             </div>
         </section>
     </main>
 
-    <!-- WATCH -->
     <div id="watchView" class="watch-view hidden">
         <div class="watch-container">
             <div class="watch-topbar">
                 <button class="back-btn" id="backBtn">&larr; Back</button>
                 <span class="watch-title" id="watchTitle">Now Playing</span>
-                <div class="topbar-actions"></div>
+                <button class="source-btn" id="sourceBtn">Source 1</button>
             </div>
-
+            <div class="disclaimer">Ad blocker recommended. Ignore ads and do not gamble.</div>
+            <div class="disclaimer" style="margin-top:8px;margin-bottom:12px;">If the video is not in English, audio is missing, or subtitles are not displaying, press the <strong>Source</strong> button above to switch to the alternate source for improved playback.</div>
             <div class="watch-player-wrap">
                 <div class="watch-player-container">
                     <iframe id="videoFrame" src="" referrerpolicy="origin"
@@ -97,21 +93,16 @@
                         <p class="loader-text">Connecting to stream...</p>
                     </div>
                     <div class="embed-error hidden" id="embedError">
-                        <div class="error-icon">!</div>
                         <p class="error-text">Stream unavailable</p>
-                        <p class="error-sub">Try switching language or source below</p>
+                        <p class="error-sub">Try again later</p>
                     </div>
                 </div>
-
-
             </div>
-
             <div class="watch-meta-section">
                 <div class="watch-meta">
                     <h2 class="watch-meta-title" id="watchMetaTitle">Title</h2>
                     <div class="watch-meta-info" id="watchMetaInfo"></div>
                 </div>
-                <div class="watch-notice">&#9888; Please ignore any ads and do not gamble. Stay safe!</div>
             </div>
         </div>
     </div>
@@ -120,7 +111,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">MovieZilla</div>
-                <p class="footer-text">&copy; 2026 MovieZilla &middot; Powered by third-party sources</p>
+                <p class="footer-text">2026 MovieZilla - Powered by third-party sources</p>
             </div>
         </div>
     </footer>
