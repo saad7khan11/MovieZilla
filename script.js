@@ -524,6 +524,7 @@ function openWatch(id) {
 
     homeView.classList.add('hidden');
     watchView.classList.remove('hidden');
+    embedError.textContent = '';
     embedError.classList.add('hidden');
     loadPlayer();
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -569,7 +570,8 @@ function handleFilter(filter) {
 }
 
 videoFrame.addEventListener('load', function() { embedLoader.classList.add('hidden'); });
-videoFrame.addEventListener('error', function() { embedLoader.classList.add('hidden'); embedError.classList.remove('hidden'); });
+videoFrame.addEventListener('load', function() { embedLoader.classList.add('hidden'); });
+videoFrame.addEventListener('error', function() { embedLoader.classList.add('hidden'); embedError.textContent = 'Failed to load video from ' + SOURCES[currentSource].name + '. Try another source.'; embedError.classList.remove('hidden'); });
 backBtn.addEventListener('click', goHome);
 sourceBtn.addEventListener('click', function() {
     currentSource = (currentSource + 1) % SOURCES.length;
@@ -578,6 +580,7 @@ sourceBtn.addEventListener('click', function() {
         var url = buildEmbedUrl(currentItem);
         if (!url) return;
         embedLoader.classList.remove('hidden');
+        embedError.textContent = '';
         embedError.classList.add('hidden');
         videoFrame.src = url;
     }
