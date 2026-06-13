@@ -191,9 +191,7 @@ const contentData = [
 
 const SOURCES = [
     { name: 'Source 1', url: 'https://streamimdb.ru/embed/movie/', idType: 'imdb' },
-    { name: 'Source 2', url: 'https://gemma416okl.com/play/', idType: 'imdb' },
-    { name: 'Source 3', url: 'https://vidsrc.cc/v2/embed/movie/', idType: 'imdb' },
-    { name: 'Source 4', url: 'https://player.videasy.net/movie/', idType: 'tmdb' }
+    { name: 'Source 2', url: 'https://gemma416okl.com/play/', idType: 'imdb' }
 ];
 let currentSource = 1;
 const ITEMS_PER_LOAD = 10;
