@@ -684,6 +684,24 @@ img { max-width: 100%; display: block; }
     box-shadow: 0 0 24px rgba(0, 240, 255, 0.2);
 }
 
+.fs-btn {
+    flex-shrink: 0;
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    font-size: 18px;
+    width: 34px; height: 34px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: var(--transition);
+}
+.fs-btn:hover {
+    border-color: var(--accent-cyan);
+    color: #fff;
+    background: rgba(0, 240, 255, 0.1);
+}
+
 .watch-player-wrap {
     position: relative;
     border-radius: 4px;

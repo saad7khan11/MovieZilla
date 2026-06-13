@@ -192,7 +192,7 @@ const contentData = [
 const SOURCES = [
     { name: 'Source 1', url: 'https://streamimdb.ru/embed/movie/', idType: 'imdb' },
     { name: 'Source 2', url: 'https://gemma416okl.com/play/', idType: 'imdb' },
-    { name: 'VidEasy', url: 'https://player.videasy.net/', idType: 'tmdb' }
+    { name: 'VidEasy', url: 'https://www.videasy.to/embed/', idType: 'imdb' }
 ];
 let currentSource = 1;
 const ITEMS_PER_LOAD = 10;
@@ -306,6 +306,7 @@ const searchInput = document.getElementById('searchInput');
 const navLinks = document.querySelectorAll('.nav-links a');
 const backBtn = document.getElementById('backBtn');
 const sourceBtn = document.getElementById('sourceBtn');
+const fsBtn = document.getElementById('fsBtn');
 const watchTitle = document.getElementById('watchTitle');
 const watchMetaTitle = document.getElementById('watchMetaTitle');
 const watchMetaInfo = document.getElementById('watchMetaInfo');
@@ -622,6 +623,31 @@ function handleFilter(filter) {
 videoFrame.addEventListener('load', function() { embedLoader.classList.add('hidden'); });
 videoFrame.addEventListener('error', function() { embedLoader.classList.add('hidden'); embedError.textContent = 'Failed to load video from ' + SOURCES[currentSource].name + '. Try another source.'; embedError.classList.remove('hidden'); });
 backBtn.addEventListener('click', goHome);
+fsBtn.addEventListener('click', function() {
+    var el = document.documentElement;
+    if (!document.fullscreenElement && !document.webkitFullscreenElement && !document.mozFullScreenElement) {
+        if (el.requestFullscreen) {
+            el.requestFullscreen().catch(function(err) { console.log('FS error:', err); });
+        } else if (el.webkitRequestFullscreen) {
+            el.webkitRequestFullscreen();
+        } else if (el.mozRequestFullScreen) {
+            el.mozRequestFullScreen();
+        } else if (el.msRequestFullscreen) {
+            el.msRequestFullscreen();
+        }
+    } else {
+        if (document.exitFullscreen) {
+            document.exitFullscreen().catch(function(err) { console.log('FS exit error:', err); });
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if (document.msExitFullscreen) {
+            document.msExitFullscreen();
+        }
+    }
+});
+
 sourceBtn.addEventListener('click', function() {
     currentSource = (currentSource + 1) % SOURCES.length;
     sourceBtn.textContent = SOURCES[currentSource].name;
