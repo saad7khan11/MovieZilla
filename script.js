@@ -511,7 +511,7 @@ function buildEmbedUrl(item) {
     }
     if (source.name === 'VidEasy') {
         if (item.type === 'series') {
-            return source.url + 'tv/' + id + '/' + currentSeason + '/' + currentEpisode;
+            return source.url + 'tv/' + id;
         }
         return source.url + 'movie/' + id;
     }
