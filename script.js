@@ -192,7 +192,8 @@
 const SOURCES = [
     { name: 'Source 1', url: 'https://streamimdb.ru/embed/movie/', idType: 'imdb' },
     { name: 'Source 2', url: 'https://gemma416okl.com/play/', idType: 'imdb' },
-    { name: 'VidEasy', url: 'https://player.videasy.net/', idType: 'tmdb' }
+    { name: 'VidEasy', url: 'https://player.videasy.net/', idType: 'tmdb', hasTypePrefix: true },
+    { name: 'Vidsrc', url: 'https://vidsrc.to/embed/', idType: 'tmdb', hasTypePrefix: true, needsEpisode: true }
 ];
 let currentSource = 2;
 const ITEMS_PER_LOAD = 10;
@@ -307,6 +308,7 @@ const navLinks = document.querySelectorAll('.nav-links a');
 const backBtn = document.getElementById('backBtn');
 const sourceBtn = document.getElementById('sourceBtn');
 const fsBtn = document.getElementById('fsBtn');
+const popBtn = document.getElementById('popBtn');
 const watchTitle = document.getElementById('watchTitle');
 const watchMetaTitle = document.getElementById('watchMetaTitle');
 const watchMetaInfo = document.getElementById('watchMetaInfo');
@@ -509,13 +511,17 @@ function buildEmbedUrl(item) {
         embedError.classList.remove('hidden');
         return '';
     }
-    if (source.name === 'VidEasy') {
-        if (item.type === 'series') {
-            return source.url + 'tv/' + id;
+    var base = source.url;
+    if (source.hasTypePrefix) {
+        var typePath = item.type === 'series' ? 'tv' : 'movie';
+        base += typePath + '/' + id;
+        if (source.needsEpisode && item.type === 'series') {
+            base += '/' + currentSeason + '/' + currentEpisode;
         }
-        return source.url + 'movie/' + id;
+    } else {
+        base += id;
     }
-    return source.url + id;
+    return base;
 }
 
 function openWatch(id) {
@@ -558,6 +564,28 @@ function goHome() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+function renderSeasons() {
+    var container = document.getElementById('seasonList');
+    if (!container) return;
+    container.innerHTML = '';
+    for (var i = 1; i <= 10; i++) {
+        var btn = document.createElement('button');
+        btn.className = 'episode-btn' + (i === currentSeason ? ' active' : '');
+        btn.textContent = i;
+        btn.dataset.season = i;
+        btn.addEventListener('click', function() { selectSeason(parseInt(this.dataset.season)); });
+        container.appendChild(btn);
+    }
+}
+
+function selectSeason(num) {
+    currentSeason = num;
+    currentEpisode = 1;
+    renderSeasons();
+    renderEpisodes();
+    if (currentItem) { loadPlayer(); }
+}
+
 function renderEpisodes() {
     var container = document.getElementById('episodeList');
     if (!container) return;
@@ -575,23 +603,16 @@ function renderEpisodes() {
 function selectEpisode(num) {
     currentEpisode = num;
     renderEpisodes();
-    if (currentItem && SOURCES[currentSource].name === 'VidEasy') {
-        var url = buildEmbedUrl(currentItem);
-        if (!url) return;
-        embedLoader.classList.remove('hidden');
-        embedError.textContent = '';
-        embedError.classList.add('hidden');
-        videoFrame.src = url;
-    }
+    if (currentItem) { loadPlayer(); }
 }
 
 function updateEpisodeVisibility() {
     var el = document.getElementById('episodeSelector');
     if (!el) return;
-    var isVidEasy = SOURCES[currentSource].name === 'VidEasy';
     var isSeries = currentItem && currentItem.type === 'series';
-    if (isVidEasy && isSeries) {
+    if (isSeries) {
         el.classList.remove('hidden');
+        renderSeasons();
         renderEpisodes();
     } else {
         el.classList.add('hidden');
@@ -625,24 +646,23 @@ videoFrame.addEventListener('error', function() { embedLoader.classList.add('hid
 backBtn.addEventListener('click', goHome);
 fsBtn.addEventListener('click', function() {
     var wrap = document.querySelector('.watch-player-wrap');
-    if (!document.fullscreenElement && !document.webkitFullscreenElement && !document.mozFullScreenElement) {
-        if (wrap && wrap.requestFullscreen) {
-            wrap.requestFullscreen().catch(function(){});
-        } else if (document.documentElement.requestFullscreen) {
-            document.documentElement.requestFullscreen().catch(function(){});
-        } else if (document.documentElement.webkitRequestFullscreen) {
-            document.documentElement.webkitRequestFullscreen();
-        } else if (document.documentElement.mozRequestFullScreen) {
-            document.documentElement.mozRequestFullScreen();
-        }
-    } else {
-        if (document.exitFullscreen) {
-            document.exitFullscreen().catch(function(){});
-        } else if (document.webkitExitFullscreen) {
-            document.webkitExitFullscreen();
-        } else if (document.mozCancelFullScreen) {
-            document.mozCancelFullScreen();
-        }
+    var iframe = document.getElementById('videoFrame');
+    function doExit() {
+        if (document.exitFullscreen) { document.exitFullscreen().catch(function(){}); }
+        else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); }
+        else if (document.mozCancelFullScreen) { document.mozCancelFullScreen(); }
+    }
+    var el = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement;
+    if (el) { doExit(); return; }
+    var target = wrap || document.documentElement;
+    if (target.requestFullscreen) {
+        target.requestFullscreen().catch(function(err) { console.warn('Fullscreen blocked:', err.message); });
+    } else if (target.webkitRequestFullscreen) {
+        target.webkitRequestFullscreen();
+    } else if (target.mozRequestFullScreen) {
+        target.mozRequestFullScreen();
+    } else if (iframe && iframe.webkitRequestFullscreen) {
+        iframe.webkitRequestFullscreen();
     }
 });
 

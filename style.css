@@ -705,7 +705,6 @@ img { max-width: 100%; display: block; }
 .watch-player-wrap {
     position: relative;
     border-radius: 4px;
-    overflow: hidden;
     background: #000;
     border: 1px solid var(--border-color);
 }
