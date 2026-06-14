@@ -206,6 +206,21 @@ var tmdbCache = {};
 var tvMetaCache = {};
 var DEFAULT_SEASONS = 5;
 var DEFAULT_EPISODES = 12;
+var SERIES_EPISODE_DATA = {
+    66732: [8, 9, 8, 9], 71446: [9, 6, 8, 8, 10], 71912: [8, 8, 8],
+    93405: [9], 1396: [7, 13, 13, 13, 16], 70523: [10, 8, 8],
+    1399: [10, 10, 10, 10, 10, 10, 7, 6], 76479: [8, 8, 8, 8],
+    63351: [10, 10, 10], 60574: [6, 6, 6, 6, 6, 6], 119051: [8],
+    19885: [3, 3, 3, 3], 94997: [10, 8], 110316: [8, 8],
+    87108: [5], 82856: [8, 8, 8], 100088: [9],
+    76331: [10, 10, 10, 10], 60059: [10, 10, 10, 10, 10, 13],
+    4613: [10], 65494: [10, 10, 10, 10, 10, 10],
+    60622: [10, 10, 10, 11, 10], 94796: [16], 197067: [16],
+    99966: [12], 65143: [16], 64010: [20], 90447: [16],
+    1402: [6, 13, 16, 16, 16, 16, 16, 16, 16, 22, 24],
+    88052: [8, 8], 60735: [13, 15, 14, 13, 13],
+    60625: [13, 19, 13, 13, 13], 69372: [10, 10, 10], 83478: [10]
+};
 
 async function resolveImdbToTmdb(imdbId) {
     if (!TMDB_API_KEY) return null;
@@ -246,6 +261,13 @@ async function ensureTvMeta(item) {
     var tmdbId = item.tmdbId || item._tmdbId;
     if (!tmdbId) return;
     if (tvMetaCache[tmdbId]) return;
+    var hardcoded = SERIES_EPISODE_DATA[tmdbId];
+    if (hardcoded) {
+        var eps = {};
+        hardcoded.forEach(function(count, idx) { eps[idx + 1] = count; });
+        tvMetaCache[tmdbId] = { seasonCount: hardcoded.length, episodesPerSeason: eps };
+        return;
+    }
     if (!TMDB_API_KEY) {
         tvMetaCache[tmdbId] = { seasonCount: DEFAULT_SEASONS, episodesPerSeason: {} };
         return;
