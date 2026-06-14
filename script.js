@@ -192,7 +192,7 @@
 const SOURCES = [
     { name: 'Source 1', url: 'https://streamimdb.ru/embed/movie/', idType: 'imdb' },
     { name: 'Source 2', url: 'https://gemma416okl.com/play/', idType: 'imdb' },
-    { name: 'VidEasy', url: 'https://player.videasy.net/', idType: 'tmdb', hasTypePrefix: true },
+    { name: 'VidEasy', url: 'https://player.videasy.net/', idType: 'tmdb', hasTypePrefix: true, needsEpisode: true },
     { name: 'Vidsrc', url: 'https://vidsrc.to/embed/', idType: 'tmdb', hasTypePrefix: true, needsEpisode: true }
 ];
 let currentSource = 2;
