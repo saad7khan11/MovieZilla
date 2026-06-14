@@ -200,9 +200,12 @@ const ITEMS_PER_LOAD = 10;
 var currentEpisode = 1;
 var currentSeason = 1;
 
-var TMDB_API_KEY = ''; // Set your TMDB API v3 key at https://www.themoviedb.org/settings/api
+var TMDB_API_KEY = ''; // Set your TMDB API v3 key at https://www.themoviedb.org/settings/api (free, needed for accurate season/episode counts)
 var TMDB_IMG_BASE = 'https://image.tmdb.org/t/p/w500';
 var tmdbCache = {};
+var tvMetaCache = {};
+var DEFAULT_SEASONS = 5;
+var DEFAULT_EPISODES = 12;
 
 async function resolveImdbToTmdb(imdbId) {
     if (!TMDB_API_KEY) return null;
@@ -236,6 +239,26 @@ async function fetchTMDBMeta(tmdbId, type) {
     } catch (e) {
         return null;
     }
+}
+
+async function ensureTvMeta(item) {
+    if (item.type !== 'series') return;
+    var tmdbId = item.tmdbId || item._tmdbId;
+    if (!tmdbId) return;
+    if (tvMetaCache[tmdbId]) return;
+    if (!TMDB_API_KEY) {
+        tvMetaCache[tmdbId] = { seasonCount: DEFAULT_SEASONS, episodesPerSeason: {} };
+        return;
+    }
+    try {
+        var meta = await fetchTMDBMeta(tmdbId, 'tv');
+        if (meta && meta.seasons) {
+            var validSeasons = meta.seasons.filter(function(s) { return s.season_number > 0 && s.episode_count > 0; });
+            var eps = {};
+            validSeasons.forEach(function(s) { eps[s.season_number] = s.episode_count; });
+            tvMetaCache[tmdbId] = { seasonCount: validSeasons.length, episodesPerSeason: eps };
+        }
+    } catch(e) {}
 }
 
 function getSourceId(item) {
@@ -542,8 +565,10 @@ function openWatch(id) {
     watchView.classList.remove('hidden');
     embedError.textContent = '';
     embedError.classList.add('hidden');
-    updateEpisodeVisibility();
-    loadPlayer();
+    ensureTvMeta(item).then(function() {
+        updateEpisodeVisibility();
+        loadPlayer();
+    });
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -568,7 +593,10 @@ function renderSeasons() {
     var container = document.getElementById('seasonList');
     if (!container) return;
     container.innerHTML = '';
-    for (var i = 1; i <= 10; i++) {
+    var max = DEFAULT_SEASONS;
+    var meta = currentItem && (currentItem._tvMeta || tvMetaCache[currentItem.tmdbId || currentItem._tmdbId]);
+    if (meta && meta.seasonCount) { max = meta.seasonCount; }
+    for (var i = 1; i <= max; i++) {
         var btn = document.createElement('button');
         btn.className = 'episode-btn' + (i === currentSeason ? ' active' : '');
         btn.textContent = i;
@@ -590,7 +618,12 @@ function renderEpisodes() {
     var container = document.getElementById('episodeList');
     if (!container) return;
     container.innerHTML = '';
-    for (var i = 1; i <= 24; i++) {
+    var max = DEFAULT_EPISODES;
+    var meta = currentItem && (currentItem._tvMeta || tvMetaCache[currentItem.tmdbId || currentItem._tmdbId]);
+    if (meta && meta.episodesPerSeason && meta.episodesPerSeason[currentSeason]) {
+        max = meta.episodesPerSeason[currentSeason];
+    }
+    for (var i = 1; i <= max; i++) {
         var btn = document.createElement('button');
         btn.className = 'episode-btn' + (i === currentEpisode ? ' active' : '');
         btn.textContent = i;
