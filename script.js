@@ -191,7 +191,8 @@
 
 const SOURCES = [
     { name: 'Source 1', url: 'https://streamimdb.ru/embed/', idType: 'imdb', hasTypePrefix: true },
-    { name: 'Source 2', url: 'https://gemma416okl.com/play/', idType: 'imdb' }
+    { name: 'Source 2', url: 'https://gemma416okl.com/play/', idType: 'imdb' },
+    { name: 'VidEasy', url: 'https://player.videasy.net/', idType: 'tmdb', hasTypePrefix: true }
 ];
 let currentSource = 0;
 const ITEMS_PER_LOAD = 10;
@@ -507,6 +508,13 @@ function buildEmbedUrl(item) {
         embedError.textContent = 'No ID available for this source. Try switching to another source.';
         embedError.classList.remove('hidden');
         return '';
+    }
+    if (source.name === 'VidEasy') {
+        var qs = '?nextEpisode=true&autoplayNextEpisode=true&episodeSelector=true&overlay=true&color=8B5CF6';
+        if (item.type === 'series') {
+            return source.url + 'tv/' + id + '/1/1' + qs;
+        }
+        return source.url + 'movie/' + id + qs;
     }
     if (source.hasTypePrefix) {
         return source.url + (item.type === 'series' ? 'tv/' : 'movie/') + id;
