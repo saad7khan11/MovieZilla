@@ -128,24 +128,24 @@
     { id: 180, title: 'Psycho', type: 'movie', imdbId: 'tt0054215', tmdbId: 539, year: 1960, rating: '8.5', quality: 'HD', desc: 'A woman on the run checks into a motel with a dark secret.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg' },
 
     { id: 181, title: 'Crash Landing on You', type: 'series', imdbId: 'tt10850932', tmdbId: 94796, year: 2019, rating: '8.7', quality: '4K', desc: 'A South Korean heiress accidentally paraglides into North Korea and meets a captain.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/fgBNLPr6mC8pxuR79ENAJY4nBmj.jpg' },
-    { id: 182, title: 'Goblin', type: 'series', imdbId: 'tt5994362', tmdbId: 67915, year: 2016, rating: '8.6', quality: '4K', desc: 'A goblin seeks a bride to break his centuries-old curse.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/sPkxHNw5BFvuCFGWw825TS7n6X3.jpg' },
-    { id: 183, title: 'Itaewon Class', type: 'series', imdbId: 'tt11593532', tmdbId: 96162, year: 2020, rating: '8.2', quality: '4K', desc: 'An ex-con and his team open a bar in Itaewon seeking revenge.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/qg7q0piY0fTt2enlIRHwKKRwNjS.jpg' },
-    { id: 184, title: 'Kingdom', type: 'series', imdbId: 'tt8573492', tmdbId: 70593, year: 2019, rating: '8.3', quality: '4K', desc: 'A crown prince investigates a mysterious plague during Joseon era.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/AsICtiVtz4icMQQRwDvOzfaTzjK.jpg' },
-    { id: 185, title: 'The Glory', type: 'series', imdbId: 'tt21344712', tmdbId: 136283, year: 2022, rating: '8.2', quality: '4K', desc: 'A woman spends decades plotting revenge against her childhood bullies.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/uUM4LVlPgIrww07OoEKrGWlS1Ej.jpg' },
-    { id: 186, title: 'Vincenzo', type: 'series', imdbId: 'tt13253388', tmdbId: 117376, year: 2021, rating: '8.4', quality: '4K', desc: 'An Italian mafia lawyer fights corruption in South Korea.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/qbkSS1cTjT4DzIwD44bdhTuYgdT.jpg' },
+    { id: 182, title: 'Goblin', type: 'series', imdbId: 'tt5994362', year: 2016, rating: '8.6', quality: '4K', desc: 'A goblin seeks a bride to break his centuries-old curse.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/sPkxHNw5BFvuCFGWw825TS7n6X3.jpg' },
+    { id: 183, title: 'Itaewon Class', type: 'series', imdbId: 'tt11593532', year: 2020, rating: '8.2', quality: '4K', desc: 'An ex-con and his team open a bar in Itaewon seeking revenge.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/qg7q0piY0fTt2enlIRHwKKRwNjS.jpg' },
+    { id: 184, title: 'Kingdom', type: 'series', imdbId: 'tt8573492', year: 2019, rating: '8.3', quality: '4K', desc: 'A crown prince investigates a mysterious plague during Joseon era.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/AsICtiVtz4icMQQRwDvOzfaTzjK.jpg' },
+    { id: 185, title: 'The Glory', type: 'series', imdbId: 'tt21344712', year: 2022, rating: '8.2', quality: '4K', desc: 'A woman spends decades plotting revenge against her childhood bullies.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/uUM4LVlPgIrww07OoEKrGWlS1Ej.jpg' },
+    { id: 186, title: 'Vincenzo', type: 'series', imdbId: 'tt13253388', year: 2021, rating: '8.4', quality: '4K', desc: 'An Italian mafia lawyer fights corruption in South Korea.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/qbkSS1cTjT4DzIwD44bdhTuYgdT.jpg' },
     { id: 187, title: 'Extraordinary Attorney Woo', type: 'series', imdbId: 'tt20869502', tmdbId: 197067, year: 2022, rating: '8.6', quality: '4K', desc: 'A brilliant autistic attorney navigates law and life in Seoul.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/zuNOQVI4rEaqwknrfQUVKtlKE2C.jpg' },
     { id: 188, title: 'All of Us Are Dead', type: 'series', imdbId: 'tt14169960', tmdbId: 99966, year: 2022, rating: '7.7', quality: '4K', desc: 'Students trapped in a high school fight for survival during a zombie outbreak.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/pTEFqAjLd5YTsMD6NSUxV6Dq7A6.jpg' },
     { id: 189, title: 'Descendants of the Sun', type: 'series', imdbId: 'tt4925000', tmdbId: 65143, year: 2016, rating: '8.3', quality: '4K', desc: 'A soldier and a doctor fall in love amid war and disaster.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/xxGomfml0x9iyPBS4StBjbRRu65.jpg' },
-    { id: 190, title: 'My Mister', type: 'series', imdbId: 'tt7780756', tmdbId: 76662, year: 2018, rating: '8.7', quality: '4K', desc: 'A man in his 40s and a woman in her 20s heal each others wounds.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/o5cBRMF6syh4yUBgZ2Ust8LvcxA.jpg' },
+    { id: 190, title: 'My Mister', type: 'series', imdbId: 'tt7780756', year: 2018, rating: '8.7', quality: '4K', desc: 'A man in his 40s and a woman in her 20s heal each others wounds.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/o5cBRMF6syh4yUBgZ2Ust8LvcxA.jpg' },
     { id: 191, title: 'Reply 1988', type: 'series', imdbId: 'tt5182866', tmdbId: 64010, year: 2015, rating: '8.8', quality: '4K', desc: 'Five childhood friends and their families navigate life in 1988 Seoul.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/i3xQJlQRff4k5IMEY55l4iKaKl3.jpg' },
-    { id: 192, title: 'Business Proposal', type: 'series', imdbId: 'tt18343252', tmdbId: 154825, year: 2022, rating: '8.1', quality: '4K', desc: 'A woman goes on a blind date in place of a friend and meets her CEO.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/iLh7L8ZuvgdxFaM9sImyv2iKYLe.jpg' },
-    { id: 193, title: 'Alchemy of Souls', type: 'series', imdbId: 'tt20992382', tmdbId: 135157, year: 2022, rating: '8.4', quality: '4K', desc: 'A powerful sorceress trapped in a weak body meets a nobleman.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/gvOZN1NlAoL8iz9ghpES1zWA3w3.jpg' },
-    { id: 194, title: 'Twenty Five Twenty One', type: 'series', imdbId: 'tt16809476', tmdbId: 129888, year: 2022, rating: '8.3', quality: '4K', desc: 'A fencer and a reporter chase their dreams during financial crisis.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/yCQFnmYhYf7XALMka2EoBRAFmPO.jpg' },
-    { id: 195, title: 'Hometown Cha-Cha-Cha', type: 'series', imdbId: 'tt15354210', tmdbId: 128883, year: 2021, rating: '8.3', quality: '4K', desc: 'A dentist moves to a seaside village and meets a jack-of-all-trades.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/en6lrlJ1DhyvkeZEqrk3R6EJz1p.jpg' },
-    { id: 196, title: 'Mr. Sunshine', type: 'series', imdbId: 'tt7645692', tmdbId: 75820, year: 2018, rating: '8.7', quality: '4K', desc: 'A Korean-born US marine returns to Joseon during foreign occupation.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/p7ljjykSsiyWstGVAwIkbdfPzRV.jpg' },
+    { id: 192, title: 'Business Proposal', type: 'series', imdbId: 'tt18343252', year: 2022, rating: '8.1', quality: '4K', desc: 'A woman goes on a blind date in place of a friend and meets her CEO.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/iLh7L8ZuvgdxFaM9sImyv2iKYLe.jpg' },
+    { id: 193, title: 'Alchemy of Souls', type: 'series', imdbId: 'tt20992382', year: 2022, rating: '8.4', quality: '4K', desc: 'A powerful sorceress trapped in a weak body meets a nobleman.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/gvOZN1NlAoL8iz9ghpES1zWA3w3.jpg' },
+    { id: 194, title: 'Twenty Five Twenty One', type: 'series', imdbId: 'tt16809476', year: 2022, rating: '8.3', quality: '4K', desc: 'A fencer and a reporter chase their dreams during financial crisis.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/yCQFnmYhYf7XALMka2EoBRAFmPO.jpg' },
+    { id: 195, title: 'Hometown Cha-Cha-Cha', type: 'series', imdbId: 'tt15354210', year: 2021, rating: '8.3', quality: '4K', desc: 'A dentist moves to a seaside village and meets a jack-of-all-trades.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/en6lrlJ1DhyvkeZEqrk3R6EJz1p.jpg' },
+    { id: 196, title: 'Mr. Sunshine', type: 'series', imdbId: 'tt7645692', year: 2018, rating: '8.7', quality: '4K', desc: 'A Korean-born US marine returns to Joseon during foreign occupation.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/p7ljjykSsiyWstGVAwIkbdfPzRV.jpg' },
     { id: 197, title: 'Hotel del Luna', type: 'series', imdbId: 'tt10220588', tmdbId: 90447, year: 2019, rating: '8.2', quality: '4K', desc: 'A hotel manager runs a mystical hotel for ghosts in Seoul.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/8bizZsXoAsOTbhyFKfBogC8mgG2.jpg' },
-    { id: 198, title: 'Signal', type: 'series', imdbId: 'tt5332208', tmdbId: 64840, year: 2016, rating: '8.6', quality: '4K', desc: 'A walkie-talkie connects a detective from the past and a profiler in the present.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/uIskxIo84jexPhnrzm1TpsUCI9w.jpg' },
-    { id: 199, title: 'Our Beloved Summer', type: 'series', imdbId: 'tt15284004', tmdbId: 135897, year: 2021, rating: '8.1', quality: '4K', desc: 'Exes reunite years after their high school documentary went viral.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/bA15g6OLmhQ2HkURRaCztA2jwqI.jpg' },
+    { id: 198, title: 'Signal', type: 'series', imdbId: 'tt5332208', year: 2016, rating: '8.6', quality: '4K', desc: 'A walkie-talkie connects a detective from the past and a profiler in the present.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/uIskxIo84jexPhnrzm1TpsUCI9w.jpg' },
+    { id: 199, title: 'Our Beloved Summer', type: 'series', imdbId: 'tt15284004', year: 2021, rating: '8.1', quality: '4K', desc: 'Exes reunite years after their high school documentary went viral.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/bA15g6OLmhQ2HkURRaCztA2jwqI.jpg' },
 
     { id: 200, title: 'Don\'t Look Up', type: 'movie', imdbId: 'tt11286314', tmdbId: 646380, year: 2021, rating: '7.2', quality: '4K', desc: 'Two astronomers try to warn humanity about an approaching comet.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/th4E1yqsE8DGpAseLiUrI60Hf8V.jpg' },
     { id: 201, title: 'Bird Box', type: 'movie', imdbId: 'tt2737304', tmdbId: 405774, year: 2018, rating: '6.6', quality: '4K', desc: 'A woman must blindfold herself to survive entities that drive people to suicide.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/rGfGfgL2pEPCfhIvqHXieXFn7gp.jpg' },
@@ -192,38 +192,16 @@
 const SOURCES = [
     { name: 'Source 1', url: 'https://streamimdb.ru/embed/movie/', idType: 'imdb' },
     { name: 'Source 2', url: 'https://gemma416okl.com/play/', idType: 'imdb' },
-    { name: 'VidEasy', url: 'https://player.videasy.net/', idType: 'tmdb', hasTypePrefix: true, needsEpisode: true },
-    { name: 'Vidsrc', url: 'https://vidsrc.to/embed/', idType: 'tmdb', hasTypePrefix: true, needsEpisode: true }
+    { name: 'VidEasy', url: 'https://player.videasy.net/', idType: 'tmdb' }
 ];
 let currentSource = 2;
 const ITEMS_PER_LOAD = 10;
 var currentEpisode = 1;
 var currentSeason = 1;
 
-var TMDB_API_KEY = ''; // Set your TMDB API v3 key at https://www.themoviedb.org/settings/api (free, needed for accurate season/episode counts)
+var TMDB_API_KEY = ''; // Set your TMDB API v3 key at https://www.themoviedb.org/settings/api
 var TMDB_IMG_BASE = 'https://image.tmdb.org/t/p/w500';
 var tmdbCache = {};
-var tvMetaCache = {};
-var DEFAULT_SEASONS = 5;
-var DEFAULT_EPISODES = 12;
-var SERIES_EPISODE_DATA = {
-    66732: [8, 9, 8, 9], 71446: [9, 6, 8, 8, 10], 71912: [8, 8, 8],
-    93405: [9], 1396: [7, 13, 13, 13, 16], 70523: [10, 8, 8],
-    1399: [10, 10, 10, 10, 10, 10, 7, 6], 76479: [8, 8, 8, 8],
-    63351: [10, 10, 10], 60574: [6, 6, 6, 6, 6, 6], 119051: [8],
-    19885: [3, 3, 3, 3], 94997: [10, 8], 110316: [8, 8],
-    87108: [5], 82856: [8, 8, 8], 100088: [9],
-    76331: [10, 10, 10, 10], 60059: [10, 10, 10, 10, 10, 13],
-    4613: [10], 65494: [10, 10, 10, 10, 10, 10],
-    60622: [10, 10, 10, 11, 10], 94796: [16], 197067: [16],
-    99966: [12], 65143: [16], 64010: [20], 90447: [16],
-    1402: [6, 13, 16, 16, 16, 16, 16, 16, 16, 22, 24],
-    88052: [8, 8], 60735: [13, 15, 14, 13, 13],
-    60625: [13, 19, 13, 13, 13], 69372: [10, 10, 10], 83478: [10],
-    67915: [16], 96162: [16], 70593: [6, 6], 136283: [16],
-    117376: [20], 76662: [16], 154825: [12], 135157: [20, 10],
-    129888: [16], 128883: [16], 75820: [24], 64840: [16], 135897: [16]
-};
 
 async function resolveImdbToTmdb(imdbId) {
     if (!TMDB_API_KEY) return null;
@@ -257,33 +235,6 @@ async function fetchTMDBMeta(tmdbId, type) {
     } catch (e) {
         return null;
     }
-}
-
-async function ensureTvMeta(item) {
-    if (item.type !== 'series') return;
-    var tmdbId = item.tmdbId || item._tmdbId;
-    if (!tmdbId) return;
-    if (tvMetaCache[tmdbId]) return;
-    var hardcoded = SERIES_EPISODE_DATA[tmdbId];
-    if (hardcoded) {
-        var eps = {};
-        hardcoded.forEach(function(count, idx) { eps[idx + 1] = count; });
-        tvMetaCache[tmdbId] = { seasonCount: hardcoded.length, episodesPerSeason: eps };
-        return;
-    }
-    if (!TMDB_API_KEY) {
-        tvMetaCache[tmdbId] = { seasonCount: DEFAULT_SEASONS, episodesPerSeason: {} };
-        return;
-    }
-    try {
-        var meta = await fetchTMDBMeta(tmdbId, 'tv');
-        if (meta && meta.seasons) {
-            var validSeasons = meta.seasons.filter(function(s) { return s.season_number > 0 && s.episode_count > 0; });
-            var eps = {};
-            validSeasons.forEach(function(s) { eps[s.season_number] = s.episode_count; });
-            tvMetaCache[tmdbId] = { seasonCount: validSeasons.length, episodesPerSeason: eps };
-        }
-    } catch(e) {}
 }
 
 function getSourceId(item) {
@@ -356,7 +307,6 @@ const navLinks = document.querySelectorAll('.nav-links a');
 const backBtn = document.getElementById('backBtn');
 const sourceBtn = document.getElementById('sourceBtn');
 const fsBtn = document.getElementById('fsBtn');
-const popBtn = document.getElementById('popBtn');
 const watchTitle = document.getElementById('watchTitle');
 const watchMetaTitle = document.getElementById('watchMetaTitle');
 const watchMetaInfo = document.getElementById('watchMetaInfo');
@@ -559,17 +509,13 @@ function buildEmbedUrl(item) {
         embedError.classList.remove('hidden');
         return '';
     }
-    var base = source.url;
-    if (source.hasTypePrefix) {
-        var typePath = item.type === 'series' ? 'tv' : 'movie';
-        base += typePath + '/' + id;
-        if (source.needsEpisode && item.type === 'series') {
-            base += '/' + currentSeason + '/' + currentEpisode;
+    if (source.name === 'VidEasy') {
+        if (item.type === 'series') {
+            return source.url + 'tv/' + id;
         }
-    } else {
-        base += id;
+        return source.url + 'movie/' + id;
     }
-    return base;
+    return source.url + id;
 }
 
 function openWatch(id) {
@@ -590,10 +536,8 @@ function openWatch(id) {
     watchView.classList.remove('hidden');
     embedError.textContent = '';
     embedError.classList.add('hidden');
-    ensureTvMeta(item).then(function() {
-        updateEpisodeVisibility();
-        loadPlayer();
-    });
+    updateEpisodeVisibility();
+    loadPlayer();
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -614,41 +558,11 @@ function goHome() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-function renderSeasons() {
-    var container = document.getElementById('seasonList');
-    if (!container) return;
-    container.innerHTML = '';
-    var max = DEFAULT_SEASONS;
-    var meta = currentItem && (currentItem._tvMeta || tvMetaCache[currentItem.tmdbId || currentItem._tmdbId]);
-    if (meta && meta.seasonCount) { max = meta.seasonCount; }
-    for (var i = 1; i <= max; i++) {
-        var btn = document.createElement('button');
-        btn.className = 'episode-btn' + (i === currentSeason ? ' active' : '');
-        btn.textContent = i;
-        btn.dataset.season = i;
-        btn.addEventListener('click', function() { selectSeason(parseInt(this.dataset.season)); });
-        container.appendChild(btn);
-    }
-}
-
-function selectSeason(num) {
-    currentSeason = num;
-    currentEpisode = 1;
-    renderSeasons();
-    renderEpisodes();
-    if (currentItem) { loadPlayer(); }
-}
-
 function renderEpisodes() {
     var container = document.getElementById('episodeList');
     if (!container) return;
     container.innerHTML = '';
-    var max = DEFAULT_EPISODES;
-    var meta = currentItem && (currentItem._tvMeta || tvMetaCache[currentItem.tmdbId || currentItem._tmdbId]);
-    if (meta && meta.episodesPerSeason && meta.episodesPerSeason[currentSeason]) {
-        max = meta.episodesPerSeason[currentSeason];
-    }
-    for (var i = 1; i <= max; i++) {
+    for (var i = 1; i <= 24; i++) {
         var btn = document.createElement('button');
         btn.className = 'episode-btn' + (i === currentEpisode ? ' active' : '');
         btn.textContent = i;
@@ -661,16 +575,23 @@ function renderEpisodes() {
 function selectEpisode(num) {
     currentEpisode = num;
     renderEpisodes();
-    if (currentItem) { loadPlayer(); }
+    if (currentItem && SOURCES[currentSource].name === 'VidEasy') {
+        var url = buildEmbedUrl(currentItem);
+        if (!url) return;
+        embedLoader.classList.remove('hidden');
+        embedError.textContent = '';
+        embedError.classList.add('hidden');
+        videoFrame.src = url;
+    }
 }
 
 function updateEpisodeVisibility() {
     var el = document.getElementById('episodeSelector');
     if (!el) return;
+    var isVidEasy = SOURCES[currentSource].name === 'VidEasy';
     var isSeries = currentItem && currentItem.type === 'series';
-    if (isSeries) {
+    if (isVidEasy && isSeries) {
         el.classList.remove('hidden');
-        renderSeasons();
         renderEpisodes();
     } else {
         el.classList.add('hidden');
@@ -704,23 +625,24 @@ videoFrame.addEventListener('error', function() { embedLoader.classList.add('hid
 backBtn.addEventListener('click', goHome);
 fsBtn.addEventListener('click', function() {
     var wrap = document.querySelector('.watch-player-wrap');
-    var iframe = document.getElementById('videoFrame');
-    function doExit() {
-        if (document.exitFullscreen) { document.exitFullscreen().catch(function(){}); }
-        else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); }
-        else if (document.mozCancelFullScreen) { document.mozCancelFullScreen(); }
-    }
-    var el = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement;
-    if (el) { doExit(); return; }
-    var target = wrap || document.documentElement;
-    if (target.requestFullscreen) {
-        target.requestFullscreen().catch(function(err) { console.warn('Fullscreen blocked:', err.message); });
-    } else if (target.webkitRequestFullscreen) {
-        target.webkitRequestFullscreen();
-    } else if (target.mozRequestFullScreen) {
-        target.mozRequestFullScreen();
-    } else if (iframe && iframe.webkitRequestFullscreen) {
-        iframe.webkitRequestFullscreen();
+    if (!document.fullscreenElement && !document.webkitFullscreenElement && !document.mozFullScreenElement) {
+        if (wrap && wrap.requestFullscreen) {
+            wrap.requestFullscreen().catch(function(){});
+        } else if (document.documentElement.requestFullscreen) {
+            document.documentElement.requestFullscreen().catch(function(){});
+        } else if (document.documentElement.webkitRequestFullscreen) {
+            document.documentElement.webkitRequestFullscreen();
+        } else if (document.documentElement.mozRequestFullScreen) {
+            document.documentElement.mozRequestFullScreen();
+        }
+    } else {
+        if (document.exitFullscreen) {
+            document.exitFullscreen().catch(function(){});
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        }
     }
 });
 
