@@ -191,10 +191,9 @@
 
 const SOURCES = [
     { name: 'Source 1', url: 'https://streamimdb.ru/embed/movie/', idType: 'imdb' },
-    { name: 'Source 2', url: 'https://gemma416okl.com/play/', idType: 'imdb' },
-    { name: 'VidEasy', url: 'https://player.videasy.net/', idType: 'tmdb' }
+    { name: 'Source 2', url: 'https://gemma416okl.com/play/', idType: 'imdb' }
 ];
-let currentSource = 2;
+let currentSource = 0;
 const ITEMS_PER_LOAD = 10;
 var currentEpisode = 1;
 var currentSeason = 1;
@@ -509,12 +508,6 @@ function buildEmbedUrl(item) {
         embedError.classList.remove('hidden');
         return '';
     }
-    if (source.name === 'VidEasy') {
-        if (item.type === 'series') {
-            return source.url + 'tv/' + id;
-        }
-        return source.url + 'movie/' + id;
-    }
     return source.url + id;
 }
 
@@ -575,27 +568,12 @@ function renderEpisodes() {
 function selectEpisode(num) {
     currentEpisode = num;
     renderEpisodes();
-    if (currentItem && SOURCES[currentSource].name === 'VidEasy') {
-        var url = buildEmbedUrl(currentItem);
-        if (!url) return;
-        embedLoader.classList.remove('hidden');
-        embedError.textContent = '';
-        embedError.classList.add('hidden');
-        videoFrame.src = url;
-    }
 }
 
 function updateEpisodeVisibility() {
     var el = document.getElementById('episodeSelector');
     if (!el) return;
-    var isVidEasy = SOURCES[currentSource].name === 'VidEasy';
-    var isSeries = currentItem && currentItem.type === 'series';
-    if (isVidEasy && isSeries) {
-        el.classList.remove('hidden');
-        renderEpisodes();
-    } else {
-        el.classList.add('hidden');
-    }
+    el.classList.add('hidden');
 }
 
 function handleFilter(filter) {
