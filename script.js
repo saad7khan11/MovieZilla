@@ -190,7 +190,7 @@
 ];
 
 const SOURCES = [
-    { name: 'Source 1', url: 'https://streamimdb.ru/embed/movie/', idType: 'imdb' },
+    { name: 'Source 1', url: 'https://streamimdb.ru/embed/', idType: 'imdb', hasTypePrefix: true },
     { name: 'Source 2', url: 'https://gemma416okl.com/play/', idType: 'imdb' }
 ];
 let currentSource = 0;
@@ -507,6 +507,9 @@ function buildEmbedUrl(item) {
         embedError.textContent = 'No ID available for this source. Try switching to another source.';
         embedError.classList.remove('hidden');
         return '';
+    }
+    if (source.hasTypePrefix) {
+        return source.url + (item.type === 'series' ? 'tv/' : 'movie/') + id;
     }
     return source.url + id;
 }
