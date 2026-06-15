@@ -8,14 +8,34 @@
     <meta http-equiv="Expires" content="0">
     <meta name="google-site-verification" content="W0tUztikawBV8n0iNyQoUC4oba7enhtW7C22oCZZRGM" />
     <title>MovieZilla - Watch Movies & Web Series</title>
-    <link rel="stylesheet" href="style.css?v=9">
+    <link rel="stylesheet" href="style.css?v=13">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <div id="pageLoader" class="page-loader">
+        <div class="loader-content">
+            <div class="loader-logo">MovieZilla</div>
+            <div class="loader-bar-track"><div class="loader-bar"></div></div>
+        </div>
+    </div>
+    <div id="themeLoader" class="theme-loader">
+        <div class="loader-content">
+            <div class="loader-logo">MovieZilla</div>
+            <div class="loader-bar-track"><div class="loader-bar"></div></div>
+        </div>
+    </div>
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-left">
+                <div class="theme-toggle" id="themeToggle">
+                    <span class="theme-label theme-label-light">Light</span>
+                    <div class="theme-switch">
+                        <div class="theme-switch-knob"></div>
+                    </div>
+                    <span class="theme-label theme-label-dark">Dark</span>
+                </div>
                 <a href="/" class="logo" id="logoLink">MovieZilla</a>
                 <ul class="nav-links">
                     <li><a href="/" class="active" data-filter="all">Home</a></li>
@@ -35,29 +55,19 @@
     <main id="homeView">
         <section class="hero">
             <div class="hero-bg">
-                <div class="hero-particle"></div>
-                <div class="hero-particle"></div>
-                <div class="hero-particle"></div>
-                <div class="hero-particle"></div>
-                <div class="hero-particle"></div>
-                <div class="hero-particle"></div>
-                <div class="hero-particle"></div>
-                <div class="hero-particle"></div>
-                <div class="hero-particle"></div>
-                <div class="hero-particle"></div>
                 <div class="hero-glow glow-1"></div>
                 <div class="hero-glow glow-2"></div>
                 <div class="hero-glow glow-3"></div>
             </div>
             <div class="hero-content">
-                <div class="hero-badge-new">&#9889; 240 Titles Available</div>
+                <div class="hero-badge">&#9889; 240 Titles Available</div>
                 <h1 class="hero-title">Welcome to <span class="gradient-text">MovieZilla</span></h1>
-                <p class="hero-subtitle">Stream movies & web series in HD â€” Hindi & English audio with subtitles</p>
+                <p class="hero-subtitle">Stream movies & web series in HD Hindi & English audio with subtitles</p>
                 <div class="hero-badges">
-                    <span class="badge badge-cyan">&#x25B6; Hindi Audio</span>
-                    <span class="badge badge-pink">&#x25B6; English Audio</span>
-                    <span class="badge badge-purple">&#x25B6; Multi-Quality</span>
-                    <span class="badge badge-green">&#x25B6; Subtitles</span>
+                    <span class="badge">&#x25B6; Hindi Audio</span>
+                    <span class="badge">&#x25B6; English Audio</span>
+                    <span class="badge">&#x25B6; Multi-Quality</span>
+                    <span class="badge">&#x25B6; Subtitles</span>
                 </div>
             </div>
         </section>
@@ -127,7 +137,7 @@
         </div>
     </footer>
 
-    <script src="script.js?v=9"></script>
+    <script src="script.js?v=13"></script>
 </body>
 </html>
 

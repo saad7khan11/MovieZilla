@@ -128,24 +128,24 @@
     { id: 180, title: 'Psycho', type: 'movie', imdbId: 'tt0054215', tmdbId: 539, year: 1960, rating: '8.5', quality: 'HD', desc: 'A woman on the run checks into a motel with a dark secret.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg' },
 
     { id: 181, title: 'Crash Landing on You', type: 'series', imdbId: 'tt10850932', tmdbId: 94796, year: 2019, rating: '8.7', quality: '4K', desc: 'A South Korean heiress accidentally paraglides into North Korea and meets a captain.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/fgBNLPr6mC8pxuR79ENAJY4nBmj.jpg' },
-    { id: 182, title: 'Goblin', type: 'series', imdbId: 'tt5994362', year: 2016, rating: '8.6', quality: '4K', desc: 'A goblin seeks a bride to break his centuries-old curse.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/sPkxHNw5BFvuCFGWw825TS7n6X3.jpg' },
-    { id: 183, title: 'Itaewon Class', type: 'series', imdbId: 'tt11593532', year: 2020, rating: '8.2', quality: '4K', desc: 'An ex-con and his team open a bar in Itaewon seeking revenge.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/qg7q0piY0fTt2enlIRHwKKRwNjS.jpg' },
-    { id: 184, title: 'Kingdom', type: 'series', imdbId: 'tt8573492', year: 2019, rating: '8.3', quality: '4K', desc: 'A crown prince investigates a mysterious plague during Joseon era.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/AsICtiVtz4icMQQRwDvOzfaTzjK.jpg' },
-    { id: 185, title: 'The Glory', type: 'series', imdbId: 'tt21344712', year: 2022, rating: '8.2', quality: '4K', desc: 'A woman spends decades plotting revenge against her childhood bullies.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/uUM4LVlPgIrww07OoEKrGWlS1Ej.jpg' },
-    { id: 186, title: 'Vincenzo', type: 'series', imdbId: 'tt13253388', year: 2021, rating: '8.4', quality: '4K', desc: 'An Italian mafia lawyer fights corruption in South Korea.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/qbkSS1cTjT4DzIwD44bdhTuYgdT.jpg' },
+{ id: 182, title: 'Goblin', type: 'series', imdbId: 'tt5994364', tmdbId: 67915, year: 2016, rating: '8.6', quality: '4K', desc: 'A goblin seeks a bride to break his centuries-old curse.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/sPkxHNw5BFvuCFGWw825TS7n6X3.jpg' },
+    { id: 183, title: 'Itaweon Class', type: 'series', imdbId: 'tt11239552', tmdbId: 96162, year: 2020, rating: '8.2', quality: '4K', desc: 'An ex-con and his team open a bar in Itaweon seeking revenge.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/qg7q0piY0fTt2enlIRHwKKRwNjS.jpg' },
+    { id: 184, title: 'Kingdom', type: 'series', imdbId: 'tt6611916', tmdbId: 70593, year: 2019, rating: '8.3', quality: '4K', desc: 'A crown prince investigates a mysterious plague during Joseon era.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/AsICtiVtz4icMQQRwDvOzfaTzjK.jpg' },
+    { id: 185, title: 'The Glory', type: 'series', imdbId: 'tt21344706', tmdbId: 136283, year: 2022, rating: '8.2', quality: '4K', desc: 'A woman spends decades plotting revenge against her childhood bullies.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/uUM4LVlPgIrww07OoEKrGWlS1Ej.jpg' },
+    { id: 186, title: 'Vincenzo', type: 'series', imdbId: 'tt13433812', tmdbId: 117376, year: 2021, rating: '8.4', quality: '4K', desc: 'An Italian mafia lawyer fights corruption in South Korea.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/qbkSS1cTjT4DzIwD44bdhTuYgdT.jpg' },
     { id: 187, title: 'Extraordinary Attorney Woo', type: 'series', imdbId: 'tt20869502', tmdbId: 197067, year: 2022, rating: '8.6', quality: '4K', desc: 'A brilliant autistic attorney navigates law and life in Seoul.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/zuNOQVI4rEaqwknrfQUVKtlKE2C.jpg' },
     { id: 188, title: 'All of Us Are Dead', type: 'series', imdbId: 'tt14169960', tmdbId: 99966, year: 2022, rating: '7.7', quality: '4K', desc: 'Students trapped in a high school fight for survival during a zombie outbreak.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/pTEFqAjLd5YTsMD6NSUxV6Dq7A6.jpg' },
     { id: 189, title: 'Descendants of the Sun', type: 'series', imdbId: 'tt4925000', tmdbId: 65143, year: 2016, rating: '8.3', quality: '4K', desc: 'A soldier and a doctor fall in love amid war and disaster.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/xxGomfml0x9iyPBS4StBjbRRu65.jpg' },
-    { id: 190, title: 'My Mister', type: 'series', imdbId: 'tt7780756', year: 2018, rating: '8.7', quality: '4K', desc: 'A man in his 40s and a woman in her 20s heal each others wounds.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/o5cBRMF6syh4yUBgZ2Ust8LvcxA.jpg' },
+    { id: 190, title: 'My Mister', type: 'series', imdbId: 'tt7923710', tmdbId: 76662, year: 2018, rating: '8.7', quality: '4K', desc: 'A man in his 40s and a woman in her 20s heal each others wounds.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/o5cBRMF6syh4yUBgZ2Ust8LvcxA.jpg' },
     { id: 191, title: 'Reply 1988', type: 'series', imdbId: 'tt5182866', tmdbId: 64010, year: 2015, rating: '8.8', quality: '4K', desc: 'Five childhood friends and their families navigate life in 1988 Seoul.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/i3xQJlQRff4k5IMEY55l4iKaKl3.jpg' },
-    { id: 192, title: 'Business Proposal', type: 'series', imdbId: 'tt18343252', year: 2022, rating: '8.1', quality: '4K', desc: 'A woman goes on a blind date in place of a friend and meets her CEO.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/iLh7L8ZuvgdxFaM9sImyv2iKYLe.jpg' },
-    { id: 193, title: 'Alchemy of Souls', type: 'series', imdbId: 'tt20992382', year: 2022, rating: '8.4', quality: '4K', desc: 'A powerful sorceress trapped in a weak body meets a nobleman.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/gvOZN1NlAoL8iz9ghpES1zWA3w3.jpg' },
-    { id: 194, title: 'Twenty Five Twenty One', type: 'series', imdbId: 'tt16809476', year: 2022, rating: '8.3', quality: '4K', desc: 'A fencer and a reporter chase their dreams during financial crisis.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/yCQFnmYhYf7XALMka2EoBRAFmPO.jpg' },
-    { id: 195, title: 'Hometown Cha-Cha-Cha', type: 'series', imdbId: 'tt15354210', year: 2021, rating: '8.3', quality: '4K', desc: 'A dentist moves to a seaside village and meets a jack-of-all-trades.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/en6lrlJ1DhyvkeZEqrk3R6EJz1p.jpg' },
-    { id: 196, title: 'Mr. Sunshine', type: 'series', imdbId: 'tt7645692', year: 2018, rating: '8.7', quality: '4K', desc: 'A Korean-born US marine returns to Joseon during foreign occupation.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/p7ljjykSsiyWstGVAwIkbdfPzRV.jpg' },
+    { id: 192, title: 'Business Proposal', type: 'series', imdbId: 'tt14819828', tmdbId: 154825, year: 2022, rating: '8.1', quality: '4K', desc: 'A woman goes on a blind date in place of a friend and meets her CEO.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/iLh7L8ZuvgdxFaM9sImyv2iKYLe.jpg' },
+    { id: 193, title: 'Alchemy of Souls', type: 'series', imdbId: 'tt20859920', tmdbId: 135157, year: 2022, rating: '8.4', quality: '4K', desc: 'A powerful sorceress trapped in a weak body meets a nobleman.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/gvOZN1NlAoL8iz9ghpES1zWA3w3.jpg' },
+    { id: 194, title: 'Twenty Five Twenty One', type: 'series', imdbId: 'tt17513352', tmdbId: 129888, year: 2022, rating: '8.3', quality: '4K', desc: 'A fencer and a reporter chase their dreams during financial crisis.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/yCQFnmYhYf7XALMka2EoBRAFmPO.jpg' },
+    { id: 195, title: 'Hometown Cha-Cha-Cha', type: 'series', imdbId: 'tt14518756', tmdbId: 128883, year: 2021, rating: '8.3', quality: '4K', desc: 'A dentist moves to a seaside village and meets a jack-of-all-trades.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/en6lrlJ1DhyvkeZEqrk3R6EJz1p.jpg' },
+    { id: 196, title: 'Mr. Sunshine', type: 'series', imdbId: 'tt7094780', tmdbId: 75820, year: 2018, rating: '8.7', quality: '4K', desc: 'A Korean-born US marine returns to Joseon during foreign occupation.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/p7ljjykSsiyWstGVAwIkbdfPzRV.jpg' },
     { id: 197, title: 'Hotel del Luna', type: 'series', imdbId: 'tt10220588', tmdbId: 90447, year: 2019, rating: '8.2', quality: '4K', desc: 'A hotel manager runs a mystical hotel for ghosts in Seoul.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/8bizZsXoAsOTbhyFKfBogC8mgG2.jpg' },
-    { id: 198, title: 'Signal', type: 'series', imdbId: 'tt5332208', year: 2016, rating: '8.6', quality: '4K', desc: 'A walkie-talkie connects a detective from the past and a profiler in the present.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/uIskxIo84jexPhnrzm1TpsUCI9w.jpg' },
-    { id: 199, title: 'Our Beloved Summer', type: 'series', imdbId: 'tt15284004', year: 2021, rating: '8.1', quality: '4K', desc: 'Exes reunite years after their high school documentary went viral.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/bA15g6OLmhQ2HkURRaCztA2jwqI.jpg' },
+    { id: 198, title: 'Signal', type: 'series', imdbId: 'tt5332206', tmdbId: 64840, year: 2016, rating: '8.6', quality: '4K', desc: 'A walkie-talkie connects a detective from the past and a profiler in the present.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/uIskxIo84jexPhnrzm1TpsUCI9w.jpg' },
+    { id: 199, title: 'Our Beloved Summer', type: 'series', imdbId: 'tt15026724', tmdbId: 135897, year: 2021, rating: '8.1', quality: '4K', desc: 'Exes reunite years after their high school documentary went viral.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/bA15g6OLmhQ2HkURRaCztA2jwqI.jpg' },
 
     { id: 200, title: 'Don\'t Look Up', type: 'movie', imdbId: 'tt11286314', tmdbId: 646380, year: 2021, rating: '7.2', quality: '4K', desc: 'Two astronomers try to warn humanity about an approaching comet.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/th4E1yqsE8DGpAseLiUrI60Hf8V.jpg' },
     { id: 201, title: 'Bird Box', type: 'movie', imdbId: 'tt2737304', tmdbId: 405774, year: 2018, rating: '6.6', quality: '4K', desc: 'A woman must blindfold herself to survive entities that drive people to suicide.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/rGfGfgL2pEPCfhIvqHXieXFn7gp.jpg' },
@@ -158,13 +158,13 @@
     { id: 208, title: 'Leave the World Behind', type: 'movie', imdbId: 'tt12747748', tmdbId: 726209, year: 2023, rating: '6.5', quality: '4K', desc: 'A family vacation turns into a nightmare when technology collapses.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/29rhl1xopxA7JlGVVsf1UHfYPvN.jpg' },
     { id: 209, title: 'Rebel Moon', type: 'movie', imdbId: 'tt14998742', tmdbId: 848326, year: 2023, rating: '5.6', quality: '4K', desc: 'A warrior leads a rebellion against a tyrannical regent.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/ui4DrH1cKk2vkHshcUcGt2lKxCm.jpg' },
     { id: 210, title: 'Damsel', type: 'movie', imdbId: 'tt13452446', tmdbId: 763215, year: 2024, rating: '6.2', quality: '4K', desc: 'A young woman fights for survival after being sacrificed to a dragon.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/AgHbB9DCE9aE57zkHjSmseszh6e.jpg' },
-    { id: 211, title: 'Atlas', type: 'movie', imdbId: 'tt14850236', year: 2024, rating: '5.6', quality: '4K', desc: 'A data analyst battles an AI terrorist with whom she shares a dark past.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/bcM2Tl5HlsvPBnL8DKP9Ie6vU4r.jpg' },
-    { id: 212, title: 'Lift', type: 'movie', imdbId: 'tt14371846', year: 2024, rating: '5.8', quality: '4K', desc: 'A master thief and his crew hijack a plane mid-flight.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/h7wJI6mctrDJ9wMbFfgrBUTn1LT.jpg' },
-    { id: 213, title: 'Unfrosted', type: 'movie', imdbId: 'tt27692628', year: 2024, rating: '5.6', quality: '4K', desc: 'The epic story of the invention of Pop-Tarts breakfast pastries.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/zxcpbkiyv81u1frI7b0f6qaYufE.jpg' },
+    { id: 211, title: 'Atlas', type: 'movie', imdbId: 'tt14850236', tmdbId: 614933, year: 2024, rating: '5.6', quality: '4K', desc: 'A data analyst battles an AI terrorist with whom she shares a dark past.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/bcM2Tl5HlsvPBnL8DKP9Ie6vU4r.jpg' },
+    { id: 212, title: 'Lift', type: 'movie', imdbId: 'tt14371846', tmdbId: 955916, year: 2024, rating: '5.8', quality: '4K', desc: 'A master thief and his crew hijack a plane mid-flight.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/h7wJI6mctrDJ9wMbFfgrBUTn1LT.jpg' },
+    { id: 213, title: 'Unfrosted', type: 'movie', imdbId: 'tt27692628', tmdbId: 844185, year: 2024, rating: '5.6', quality: '4K', desc: 'The epic story of the invention of Pop-Tarts breakfast pastries.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/zxcpbkiyv81u1frI7b0f6qaYufE.jpg' },
     { id: 214, title: 'The Mother', type: 'movie', imdbId: 'tt6968614', tmdbId: 552688, year: 2023, rating: '6.2', quality: '4K', desc: 'A former assassin comes out of hiding to protect her daughter.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/vnRthEZz16Q9VWcP5homkHxyHoy.jpg' },
     { id: 215, title: 'Heart of Stone', type: 'movie', imdbId: 'tt13603966', tmdbId: 724209, year: 2023, rating: '6.0', quality: '4K', desc: 'A spy races against time to stop a hacker from stealing a dangerous weapon.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/vB8o2p4ETnrfiWEgVxHmHWP9yRl.jpg' },
     { id: 216, title: 'Luther: The Fallen Sun', type: 'movie', imdbId: 'tt15679400', tmdbId: 631842, year: 2023, rating: '6.4', quality: '4K', desc: 'Detective John Luther breaks out of prison to hunt a serial killer.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/xsW7M4b4gawgFKCzcXHL2MSeswj.jpg' },
-    { id: 217, title: 'The Kitchen', type: 'movie', imdbId: 'tt15727690', year: 2023, rating: '5.6', quality: '4K', desc: 'A dystopian London community fights for survival in a housing project.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/tV0hK1BiqYrYlehChv4WJXIWgmZ.jpg' },
+    { id: 217, title: 'The Kitchen', type: 'movie', imdbId: 'tt15727690', tmdbId: 956262, year: 2023, rating: '5.6', quality: '4K', desc: 'A dystopian London community fights for survival in a housing project.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/tV0hK1BiqYrYlehChv4WJXIWgmZ.jpg' },
     { id: 218, title: 'Spiderhead', type: 'movie', imdbId: 'tt11245972', tmdbId: 646385, year: 2022, rating: '5.7', quality: '4K', desc: 'Inmates at a high-tech prison volunteer for drug experiments.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/7COPO5B9AOKIB4sEkvNu0wfve3c.jpg' },
     { id: 219, title: 'The Pale Blue Eye', type: 'movie', imdbId: 'tt14138650', tmdbId: 800815, year: 2022, rating: '6.9', quality: '4K', desc: 'A retired detective investigates murders at West Point with Edgar Allan Poe.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/9xkGlFRqrN8btTLU0KQvOfn2PHr.jpg' },
     { id: 220, title: 'Train to Busan', type: 'movie', imdbId: 'tt5700672', tmdbId: 396535, year: 2016, rating: '7.6', quality: '4K', desc: 'Passengers on a high-speed train fight for survival during a sudden zombie outbreak.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/vNVFt6dtcqnI7hqa6LFBUibuFiw.jpg' },
@@ -180,7 +180,7 @@
     { id: 230, title: 'The Girl with All the Gifts', type: 'movie', imdbId: 'tt4547056', tmdbId: 375366, year: 2016, rating: '6.6', quality: '4K', desc: 'A gifted little girl holds the key to humanity\'s survival in a fungal zombie apocalypse.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/vdCD8z55a4RNmHQDPIpuMFqoY2B.jpg' },
     { id: 231, title: '#Alive', type: 'movie', imdbId: 'tt10620868', tmdbId: 714888, year: 2020, rating: '6.2', quality: '4K', desc: 'A gamer trapped in his apartment fights to survive during a sudden zombie outbreak in the city.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/nmh7vD2eDVRqFJoCpEzVcfGcPPf.jpg' },
     { id: 232, title: 'Army of the Dead', type: 'movie', imdbId: 'tt0993840', tmdbId: 503736, year: 2021, rating: '5.8', quality: '4K', desc: 'A group of mercenaries plans a daring heist in zombie-infested Las Vegas.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/gCIsRxzcxvmuLYeAvWgoOuSxszF.jpg' },
-    { id: 233, title: 'Overlord', type: 'movie', imdbId: 'tt4530422', tmdbId: 505642, year: 2018, rating: '6.6', quality: '4K', desc: 'American paratroopers land in Nazi-occupied France on D-Day and discover horrific zombie experiments.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/sv1xJUazXeYqALzczSZ3O6nkH75.jpg' },
+    { id: 233, title: 'Overlord', type: 'movie', imdbId: 'tt4530422', tmdbId: 438799, year: 2018, rating: '6.6', quality: '4K', desc: 'American paratroopers land in Nazi-occupied France on D-Day and discover horrific zombie experiments.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/uQl9R1HmhFn5kZnECtYoN2x6IIx.jpg' },
     { id: 234, title: 'The Walking Dead', type: 'series', imdbId: 'tt1520211', tmdbId: 1402, year: 2010, rating: '8.1', quality: '4K', desc: 'Survivors navigate a post-apocalyptic world overrun by zombies while facing threats from other humans.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/ng3cMtxYKt1OSQYqFlnKWnVsqNO.jpg' },
     { id: 235, title: 'Black Summer', type: 'series', imdbId: 'tt9184984', tmdbId: 88052, year: 2019, rating: '6.8', quality: 'HD', desc: 'A desperate mother searches for her daughter during the terrifying early days of a zombie apocalypse.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/d27fZpY8jSZDOs1k0JCL0RY0b94.jpg' },
     { id: 236, title: 'Z Nation', type: 'series', imdbId: 'tt3843152', tmdbId: 60735, year: 2014, rating: '6.7', quality: 'HD', desc: 'A ragtag group escorts the only survivor of a zombie bite across America to find a cure.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/yZevl2vHQgmosfwUdVNzviIfaWS.jpg' },
@@ -533,8 +533,8 @@ function openWatch(id) {
     watchMetaTitle.textContent = item.title + ' (' + item.year + ')';
     watchTitle.textContent = 'Now Playing - ' + item.title;
     watchMetaInfo.innerHTML = '<span>' + item.year + '</span><span>' + item.rating + '</span>'
-        + '<span style="background:var(--accent-cyan);color:#000;padding:1px 6px;border-radius:2px;font-size:11px;font-weight:700;">' + item.quality + '</span>'
-        + '<span style="background:var(--accent-pink);color:#fff;padding:1px 6px;border-radius:2px;font-size:11px;font-weight:700;">' + (item.type === 'movie' ? 'Movie' : 'Series') + '</span>';
+        + '<span style="background:var(--accent);color:var(--bg);padding:1px 6px;border-radius:2px;font-size:11px;font-weight:700;">' + item.quality + '</span>'
+        + '<span style="background:var(--accent-dim);color:var(--accent);padding:1px 6px;border-radius:2px;font-size:11px;font-weight:700;">' + (item.type === 'movie' ? 'Movie' : 'Series') + '</span>';
 
     homeView.classList.add('hidden');
     watchView.classList.remove('hidden');
@@ -689,9 +689,45 @@ document.getElementById('logoLink').addEventListener('click', function(e) {
     goHome();
 });
 
+/* ===== THEME TOGGLE ===== */
+var savedTheme = localStorage.getItem('theme');
+if (savedTheme === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+}
+
+document.getElementById('themeToggle').addEventListener('click', function() {
+    var loader = document.getElementById('themeLoader');
+    loader.classList.add('active');
+    setTimeout(function() {
+        var html = document.documentElement;
+        if (html.getAttribute('data-theme') === 'light') {
+            html.removeAttribute('data-theme');
+            localStorage.setItem('theme', 'dark');
+        } else {
+            html.setAttribute('data-theme', 'light');
+            localStorage.setItem('theme', 'light');
+        }
+        setTimeout(function() { loader.classList.remove('active'); }, 250);
+    }, 300);
+});
+
 buildRows();
 handleFilter('all');
 enrichFromTMDB();
+
+function hideLoader() {
+    var loader = document.getElementById('pageLoader');
+    if (loader && !loader.classList.contains('fade-out')) {
+        loader.classList.add('fade-out');
+        setTimeout(function() { if (loader) loader.style.display = 'none'; }, 700);
+    }
+}
+
+var minLoaderTimer = setTimeout(hideLoader, 2500);
+window.addEventListener('load', function() {
+    clearTimeout(minLoaderTimer);
+    setTimeout(hideLoader, 400);
+});
 
 var resizeTimer;
 window.addEventListener('resize', function() {
