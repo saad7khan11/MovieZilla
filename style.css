@@ -10,8 +10,8 @@
     --accent-hover: #ff7a62;
     --accent-dim: rgba(255, 96, 68, 0.15);
     --text: #e8e8e8;
-    --text-secondary: #888;
-    --text-muted: #555;
+    --text-secondary: #bbb;
+    --text-muted: #888;
 }
 
 [data-theme="light"] {
