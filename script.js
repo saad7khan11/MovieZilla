@@ -451,28 +451,31 @@ function buildRows() {
         const trackWrapper = document.createElement('div');
         trackWrapper.className = 'row-track-wrapper';
 
+        const controls = document.createElement('div');
+        controls.className = 'row-controls';
+
         const scrollLeft = document.createElement('button');
-        scrollLeft.className = 'scroll-btn scroll-left';
-        scrollLeft.innerHTML = '<';
+        scrollLeft.className = 'scroll-btn-circle scroll-left';
         scrollLeft.setAttribute('aria-label', 'Scroll left');
 
-        const track = document.createElement('div');
-        track.className = 'row-track';
-        track.id = 'track-' + config.id;
-
         const scrollRight = document.createElement('button');
-        scrollRight.className = 'scroll-btn scroll-right';
-        scrollRight.innerHTML = '>';
+        scrollRight.className = 'scroll-btn-circle scroll-right';
         scrollRight.setAttribute('aria-label', 'Scroll right');
 
         scrollLeft.addEventListener('click', function() { scrollRow(config.id, -1); });
         scrollRight.addEventListener('click', function() { scrollRow(config.id, 1); });
 
+        controls.appendChild(scrollLeft);
+        controls.appendChild(scrollRight);
+        header.appendChild(controls);
+
+        const track = document.createElement('div');
+        track.className = 'row-track';
+        track.id = 'track-' + config.id;
+
         track.addEventListener('scroll', function() { onRowScroll(config.id); });
 
-        trackWrapper.appendChild(scrollLeft);
         trackWrapper.appendChild(track);
-        trackWrapper.appendChild(scrollRight);
 
         section.appendChild(header);
         section.appendChild(trackWrapper);
