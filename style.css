@@ -1,11 +1,11 @@
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
-    --bg: #121313;
-    --bg-elevated: #1a1b1b;
-    --bg-card: #1e1f1f;
-    --border: #2a2b2b;
-    --border-hover: #3d3e3e;
+    --bg: #000000;
+    --bg-elevated: #111111;
+    --bg-card: #1a1a1a;
+    --border: #222222;
+    --border-hover: #333333;
     --accent: #FF6044;
     --accent-hover: #ff7a62;
     --accent-dim: rgba(255, 96, 68, 0.15);
@@ -30,7 +30,7 @@
 
 .theme-loader {
     position: fixed; inset: 0; z-index: 9998;
-    background: #121313;
+    background: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,7 +94,7 @@ img { max-width: 100%; display: block; }
 /* ===== PAGE LOADER ===== */
 .page-loader {
     position: fixed; inset: 0; z-index: 9999;
-    background: #121313;
+    background: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -255,7 +255,7 @@ img { max-width: 100%; display: block; }
 .hero {
     padding: calc(var(--nav-h) + 60px) 0 50px;
     text-align: center;
-    background: linear-gradient(180deg, var(--bg) 0%, var(--bg-elevated) 100%);
+    background: var(--bg);
     border-bottom: 1px solid var(--border);
     transition: background 0.3s ease, border-color 0.3s ease;
 }
