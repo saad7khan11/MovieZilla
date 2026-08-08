@@ -200,7 +200,6 @@
     { id: 249, title: 'Dhurandhar', type: 'movie', category: 'bollywood', imdbId: 'tt33014583', tmdbId: 1291608, year: 2025, rating: '6.5', quality: '4K', desc: 'A fearless spy navigates a web of deception and danger in this action thriller.', langs: ['Hindi'], poster: 'https://image.tmdb.org/t/p/w500/snBOuXDdhmTvlzMUvP9Em3Pp1u1.jpg' },
 
     { id: 250, title: 'Kingsman: The Secret Service', type: 'movie', imdbId: 'tt2802144', tmdbId: 207703, year: 2014, rating: '7.7', quality: '4K', desc: 'A street kid becomes a gentleman spy and joins a secret agency to stop a global threat.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/r6q9wZK5a2K51KFj4LWVID6Ja1r.jpg' },
-    { id: 251, title: 'Dhurandhar: The Revenge', type: 'movie', category: 'bollywood', imdbId: 'tt39139925', tmdbId: 1582770, year: 2026, rating: '8.6', quality: '4K', desc: 'Hamza\'s mission spirals into a bloody personal war as rival gangs and corrupt officials close in on him.', langs: ['Hindi'], poster: 'https://image.tmdb.org/t/p/w500/ptTwQES14pr5c3aZvJg56YlYgb1.jpg' },
 
     { id: 252, title: 'Mission: Impossible', type: 'movie', imdbId: 'tt0117060', tmdbId: 954, year: 1996, rating: '7.0', quality: '4K', desc: 'When Ethan Hunt discovers a mole in the CIA, he becomes the prime suspect and must clear his name.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/l5uxY5m5OInWpcExIpKG6AR3rgL.jpg' },
     { id: 253, title: 'Mission: Impossible II', type: 'movie', imdbId: 'tt0120755', tmdbId: 955, year: 2000, rating: '6.1', quality: '4K', desc: 'Agent Ethan Hunt races across Australia and Spain to stop a rogue IMF agent from releasing a deadly virus.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/hfnrual76gPeNFduhD4xzHWpfTw.jpg' },
@@ -220,23 +219,220 @@
     { id: 266, title: 'Furious 7', type: 'movie', imdbId: 'tt2820312', tmdbId: 168259, year: 2015, rating: '7.2', quality: '4K', desc: 'Deckard Shaw seeks revenge against Dom and his family for his comatose brother.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/ktofZ9Htrjiy0P6LEowsDaxd3Ri.jpg' },
     { id: 267, title: 'The Fate of the Furious', type: 'movie', imdbId: 'tt4630562', tmdbId: 337339, year: 2017, rating: '6.9', quality: '4K', desc: 'Dom is seduced into the world of crime and betrays those closest to him.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/dImWM7GJqryWJO9LHa3XQ8DD5NH.jpg' },
     { id: 268, title: 'F9', type: 'movie', imdbId: 'tt5433138', tmdbId: 385128, year: 2021, rating: '7.0', quality: '4K', desc: 'Dom and his crew face the most skilled assassin they\'ve ever encountered: his forsaken brother.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/deEmLILTPejEb6OGsXRJ5MCvyDW.jpg' },
-    { id: 269, title: 'Fast X', type: 'movie', imdbId: 'tt13403046', tmdbId: 385687, year: 2023, rating: '7.0', quality: '4K', desc: 'Dom Toretto and his family confront the most lethal opponent fueled by blood revenge.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/fiVW06jE7z9YnO4trhaMEdclSiC.jpg' }
+    { id: 269, title: 'Fast X', type: 'movie', imdbId: 'tt13403046', tmdbId: 385687, year: 2023, rating: '7.0', quality: '4K', desc: 'Dom Toretto and his family confront the most lethal opponent fueled by blood revenge.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/fiVW06jE7z9YnO4trhaMEdclSiC.jpg' },
+    { id: 277, title: 'Thunderbolts*', type: 'movie', imdbId: 'tt20969586', tmdbId: 986056, year: 2025, rating: '7.3', quality: '4K', desc: 'After finding themselves ensnared in a death trap, seven disillusioned castoffs must embark on a dangerous mission.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg' },
+    { id: 278, title: 'The Fantastic Four: First Steps', type: 'movie', imdbId: 'tt10676052', tmdbId: 617126, year: 2025, rating: '6.9', quality: '4K', desc: 'Marvel\'s First Family must protect Earth from the cosmic threat of Galactus and the Silver Surfer.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/nf5qaSEvyYSNeFH0YhSs5EsBLX9.jpg' },
+    { id: 279, title: 'Mission: Impossible — The Final Reckoning', type: 'movie', imdbId: 'tt9603208', tmdbId: 575265, year: 2025, rating: '7.2', quality: '4K', desc: 'Ethan Hunt leads his team on their most dangerous mission yet to eliminate a rogue AI threat.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/iKPsC9EFUafRP9SrUznI61getVP.jpg' },
+    { id: 280, title: 'How to Train Your Dragon', type: 'movie', imdbId: 'tt26743210', tmdbId: 1087192, year: 2025, rating: '7.9', quality: '4K', desc: 'On the rugged isle of Berk, Hiccup stands apart when he befriends Toothless, a feared Night Fury dragon.', langs: ['Hindi', 'English'], poster: 'https://image.tmdb.org/t/p/w500/53dsJ3oEnBhTBVMigWJ9tkA5bzJ.jpg' },
+
+    { id: 281, title: 'Spider-Man: Brand New Day', type: 'movie', imdbId: 'tt22084616', tmdbId: 969681, year: 2026, rating: '7.9', quality: '4K', desc: 'Fighting crime full-time as Spider-Man in a world that doesn\'t remember him, Peter Parker faces a shocking new threat.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/iPOn6DinuVyLY17YM9mKuPofV08.jpg' },
+    { id: 282, title: 'The Odyssey', type: 'movie', imdbId: 'tt33764258', tmdbId: 1368337, year: 2026, rating: '8.0', quality: '4K', desc: 'Odysseus embarks on a long and perilous journey home following the Trojan War.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg' },
+    { id: 283, title: 'Avatar Aang: The Last Airbender', type: 'movie', imdbId: 'tt18259538', tmdbId: 980431, year: 2026, rating: '9.3', quality: '4K', desc: 'Avatar Aang learns of an ancient power that could save his culture from extinction.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/3sgnSfNT27Bx5O5ukr7B26mhEQq.jpg' },
+    { id: 284, title: 'Supergirl', type: 'movie', imdbId: 'tt8814476', tmdbId: 1081003, year: 2026, rating: '6.8', quality: '4K', desc: 'Kara Zor-El reluctantly joins forces on an epic, interstellar journey of vengeance and justice.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/1QCWdqzTfh2x9UylVpspIU6QTuM.jpg' },
+    { id: 285, title: 'Toy Story 5', type: 'movie', imdbId: 'tt29355505', tmdbId: 1084244, year: 2026, rating: '7.4', quality: '4K', desc: 'Buzz, Woody, Jessie and the gang face the all-new threat to playtime.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/sfQtVlIHljToOwYjhe21KPGzZWK.jpg' },
+    { id: 286, title: 'Masters of the Universe', type: 'movie', imdbId: 'tt0427340', tmdbId: 454639, year: 2026, rating: '7.2', quality: '4K', desc: 'Prince Adam must embrace his true destiny as He-Man to save Eternia.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/oRuyGUHdoaQxWP3SDfafGkStxTC.jpg' },
+    { id: 287, title: 'Moana', type: 'movie', imdbId: 'tt27419466', tmdbId: 1108427, year: 2026, rating: '6.0', quality: '4K', desc: 'Teenage Moana answers the Ocean\'s call and voyages beyond the reef with demigod Maui.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/zKVgiv5qHCvCLT4A2ymJi5QeXDH.jpg' },
+    { id: 288, title: 'Minions & Monsters', type: 'movie', imdbId: 'tt32890033', tmdbId: 1315772, year: 2026, rating: '6.4', quality: '4K', desc: 'The Minions conquered Hollywood, became movie stars, lost everything, and unleashed monsters.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/nz7i42yhLIJ4ve9JKgM6NthoLHO.jpg' },
+    { id: 289, title: 'Evil Dead Burn', type: 'movie', imdbId: 'tt31170389', tmdbId: 1212763, year: 2026, rating: '7.9', quality: '4K', desc: 'Alice seeks solace with her husband\'s family, descendants of a researcher on demonic possession.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/uRxrNXQWkHoENm3nwVOZDYSCx2F.jpg' },
+    { id: 290, title: 'Scary Movie', type: 'movie', imdbId: 'tt32093575', tmdbId: 1273221, year: 2026, rating: '6.5', quality: '4K', desc: 'Twenty-six years later, the Core Four are back in the killer\'s crosshairs.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/znHT8peERZRWG1ME3r0Db0EV8k8.jpg' },
+    { id: 291, title: 'Obsession', type: 'movie', imdbId: 'tt37287335', tmdbId: 1339713, year: 2026, rating: '8.2', quality: '4K', desc: 'A hopeless romantic discovers some desires come at a dark, sinister price.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg' },
+    { id: 292, title: 'Colony', type: 'movie', imdbId: 'tt34385135', tmdbId: 1375646, year: 2026, rating: '8.1', quality: '4K', desc: 'A professor fights to survive when a mutating virus is released during a biotech conference.', langs: ['Korean', 'English'], poster: 'https://image.tmdb.org/t/p/w500/tN799oUR0f1gUKDYdMNrDaY7I51.jpg' },
+    { id: 293, title: 'The Debt Collector', type: 'movie', imdbId: 'tt39749953', tmdbId: 1630409, year: 2026, rating: '7.7', quality: '4K', desc: 'An ex-debt collector returns to the underworld to protect victims of a violent organization.', langs: ['Thai', 'English'], poster: 'https://image.tmdb.org/t/p/w500/qADBUb5ybrkRVGZEFF8Z4RuOwys.jpg' },
+
+    { id: 301, title: 'Daredevil: Born Again', type: 'series', imdbId: 'tt18923754', tmdbId: 202555, year: 2025, rating: '8.2', quality: '4K', desc: 'Matt Murdock, a blind lawyer with heightened abilities, is fighting for justice through his bustling law firm, while Wilson Fisk pursues his own agenda.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg' },
+    { id: 302, title: 'Severance', type: 'series', imdbId: 'tt11280740', tmdbId: 95396, year: 2022, rating: '8.4', quality: '4K', desc: 'Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/pPHpeI2X1qEd1CS1SeyrdhZ4qnT.jpg' },
+    { id: 303, title: 'The White Lotus', type: 'series', imdbId: 'tt13406094', tmdbId: 111803, year: 2021, rating: '7.6', quality: '4K', desc: 'Follow the exploits of various guests and employees at an exclusive tropical resort over the span of a week.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/gbSaK9v1CbcYH1ISgbM7XObD2dW.jpg' },
+    { id: 304, title: 'Silo', type: 'series', imdbId: 'tt14688458', tmdbId: 125988, year: 2023, rating: '8.2', quality: '4K', desc: 'In a ruined and toxic future, thousands live in a giant silo deep underground. After its sheriff breaks a cardinal rule, residents die mysteriously.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg' },
+    { id: 305, title: 'Yellowjackets', type: 'series', imdbId: 'tt11041332', tmdbId: 117488, year: 2021, rating: '7.4', quality: '4K', desc: 'A survival epic, psychological horror story and coming-of-age drama telling the saga of a team of high school girls soccer players.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg' },
+    { id: 306, title: 'Arcane', type: 'series', imdbId: 'tt11126994', tmdbId: 94605, year: 2021, rating: '8.8', quality: '4K', desc: 'Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg' },
+    { id: 307, title: 'Shogun', type: 'series', imdbId: 'tt2788316', tmdbId: 126308, year: 2024, rating: '8.4', quality: '4K', desc: 'In Japan in the year 1600, at the dawn of a century-defining civil war, Lord Yoshii Toranaga is fighting for his life.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg' },
+    { id: 308, title: 'Fallout', type: 'series', imdbId: 'tt12637874', tmdbId: 106379, year: 2024, rating: '8.1', quality: '4K', desc: '200 years after the apocalypse, the gentle denizens of luxury underground bunkers are forced to return to the irradiated hellscape their ancestors left behind.', langs: ['English'], poster: 'https://image.tmdb.org/t/p/w500/c15BtJxCXMrISLVmysdsnZUPQft.jpg' }
 ];
 
 const SOURCES = [
     { name: 'Source 1', url: 'https://streamimdb.ru/embed/', idType: 'imdb', hasTypePrefix: true },
     { name: 'Source 2', url: 'https://gemma416okl.com/play/', idType: 'imdb' },
-    { name: 'VidEasy', url: 'https://player.videasy.net/', idType: 'tmdb', hasTypePrefix: true }
+    { name: 'VidEasy', url: 'https://player.videasy.net/', idType: 'tmdb', hasTypePrefix: true },
+    { name: 'CineSrc', url: 'https://cinesrc.st/embed/', idType: 'tmdb', hasTypePrefix: true, usesPostMessage: true },
+    { name: 'Source 5', url: 'https://bingr.one/watch/', idType: 'tmdb', hasTypePrefix: false }
 ];
-let currentSource = 0;
+
+const ROW_CONFIG = [
+    { id: 'trending', title: 'Trending Now', type: null },
+    { id: 'new', title: 'New Releases', type: null, filter: function(item) { return item.year >= 2025; } },
+    { id: 'toprated', title: 'Top Rated', type: null, filter: function(item) { return parseFloat(item.rating) >= 8.2; } },
+    { id: 'korean', title: 'K-Dramas & Korean', type: null, filter: function(item) { return item.langs.some(function(l) { return l === 'Korean'; }); } },
+    { id: 'movies', title: 'Movies', type: 'movie' },
+    { id: 'series', title: 'Web Series', type: 'series' },
+    { id: 'classics', title: 'Classics', type: null, filter: function(item) { return item.year < 2000; } },
+    { id: 'zombie', title: 'Zombies & Horror', type: null, filter: function(item) { return item.desc.toLowerCase().includes('zombie') || item.desc.toLowerCase().includes('infected') || item.desc.toLowerCase().includes('rage') || item.title === 'I Am Legend'; } },
+    { id: 'bollywood', title: 'Bollywood', type: null, filter: function(item) { return item.category === 'bollywood'; } }
+];
+
+const HERO_DATA = [
+    { id: 281, title: 'Spider-Man: Brand New Day', tag: 'NEW RELEASE', backdrop: 'https://image.tmdb.org/t/p/w780/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg', genre: 'Sci-Fi \u00b7 Action', rating: '7.9', year: 2026, duration: '2h 25m', desc: 'Fighting crime full-time as Spider-Man in a world that doesn\'t remember him, Peter Parker faces a shocking new threat.' },
+    { id: 282, title: 'The Odyssey', tag: 'TRENDING', backdrop: 'https://image.tmdb.org/t/p/w780/RMXG8myu1aGlNUsRjtxzmpdMK0.jpg', genre: 'Adventure \u00b7 Action', rating: '8.0', year: 2026, duration: '2h 53m', desc: 'Odysseus embarks on a long and perilous journey home following the Trojan War.' },
+    { id: 283, title: 'Avatar Aang: The Last Airbender', tag: 'TOP RATED', backdrop: 'https://image.tmdb.org/t/p/w780/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg', genre: 'Animation \u00b7 Action', rating: '9.3', year: 2026, duration: '1h 45m', desc: 'Avatar Aang learns of an ancient power that could save his culture from extinction.' }
+];
+
+const GENRES = [
+    { label: 'Action', img: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?w=500&h=200&fit=crop' },
+    { label: 'Sci-Fi', img: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=500&h=200&fit=crop' },
+    { label: 'Thriller', img: 'https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=500&h=200&fit=crop' },
+    { label: 'Drama', img: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=500&h=200&fit=crop' },
+    { label: 'Horror', img: 'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=500&h=200&fit=crop' },
+    { label: 'Crime', img: 'https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=500&h=200&fit=crop' },
+    { label: 'Fantasy', img: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=500&h=200&fit=crop' },
+    { label: 'Comedy', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=200&fit=crop' }
+];
+
+const ROW_ICONS = {
+    trending: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>',
+    'new': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>',
+    toprated: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>',
+    _default: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>'
+};
+
 const ITEMS_PER_LOAD = 10;
+var currentSource = 0;
 var currentEpisode = 1;
 var currentSeason = 1;
-
-var TMDB_API_KEY = ''; // Set your TMDB API v3 key at https://www.themoviedb.org/settings/api
+var TMDB_API_KEY = '';
 var TMDB_IMG_BASE = 'https://image.tmdb.org/t/p/w500';
 var tmdbCache = {};
+var currentFilter = 'all';
+var currentItem = null;
 
+/* ===== ROUTING ===== */
+function slugify(text) {
+    return text.toLowerCase()
+        .replace(/[^a-z0-9\s-]/g, '')
+        .replace(/\s+/g, '-')
+        .replace(/-+/g, '-')
+        .replace(/^-|-$/g, '');
+}
+
+function setMovieUrl(item) {
+    var slug = slugify(item.title);
+    window.location.hash = '#/' + slug;
+}
+
+function findItemBySlug(slug) {
+    return contentData.find(function(item) {
+        return slugify(item.title) === slug;
+    });
+}
+
+function handleRoute() {
+    var hash = window.location.hash;
+    if (hash && hash.startsWith('#/') && hash.length > 2) {
+        var slug = hash.substring(2);
+        var item = findItemBySlug(slug);
+        if (item && (!currentItem || currentItem.id !== item.id)) {
+            openWatch(item.id, item.type);
+        }
+    } else if (!hash || hash === '#') {
+        if (currentItem) {
+            goHome();
+        }
+    }
+}
+
+const rowCache = {};
+const loadedCounts = {};
+
+const homeView = document.getElementById('homeView');
+const watchView = document.getElementById('watchView');
+const categoryRows = document.getElementById('categoryRows');
+const searchResults = document.getElementById('searchResults');
+const searchHeader = document.getElementById('searchHeader');
+const searchResultsTitle = document.getElementById('searchResultsTitle');
+const searchClear = document.getElementById('searchClear');
+const browseView = document.getElementById('browseView');
+const videoFrame = document.getElementById('videoFrame');
+const embedLoader = document.getElementById('embedLoader');
+const embedError = document.getElementById('embedError');
+const searchInput = document.getElementById('searchInput');
+const navLinks = document.querySelectorAll('.nav-links a');
+const backBtn = document.getElementById('backBtn');
+const sourceBtn = document.getElementById('sourceBtn');
+const fsBtn = document.getElementById('fsBtn');
+const popBtn = document.getElementById('popBtn');
+const watchTitle = document.getElementById('watchTitle');
+const watchMetaTitle = document.getElementById('watchMetaTitle');
+const watchMetaInfo = document.getElementById('watchMetaInfo');
+const searchOverlay = document.getElementById('searchOverlay');
+const searchOpenBtn = document.getElementById('searchOpenBtn');
+const searchCloseBtn = document.getElementById('searchCloseBtn');
+const heroSlides = document.getElementById('heroSlides');
+const heroDots = document.getElementById('heroDots');
+const genreGrid = document.getElementById('genreGrid');
+const navbar = document.getElementById('navbar');
+const siteFooter = document.getElementById('siteFooter');
+
+/* ===== HERO CAROUSEL ===== */
+var heroIndex = 0;
+var heroTimer = null;
+
+function buildHero() {
+    if (!heroSlides || !heroDots) return;
+    heroSlides.innerHTML = '';
+    heroDots.innerHTML = '';
+
+    HERO_DATA.forEach(function(slide, i) {
+        var div = document.createElement('div');
+        div.className = 'hero-slide' + (i === 0 ? ' active' : '');
+        div.innerHTML =
+            '<div class="hero-slide-bg"><img src="' + slide.backdrop + '" alt="' + slide.title + '"></div>'
+            + '<div class="hero-gradient-left"></div>'
+            + '<div class="hero-gradient-bottom"></div>'
+            + '<div class="hero-content">'
+            + '<span class="hero-tag">' + slide.tag + '</span>'
+            + '<h1 class="hero-title">' + slide.title + '</h1>'
+            + '<div class="hero-meta">'
+            + '<span class="hero-rating"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> ' + slide.rating + '</span>'
+            + '<span class="dot">&middot;</span>'
+            + '<span>' + slide.year + '</span>'
+            + '<span class="dot">&middot;</span>'
+            + '<span>' + slide.duration + '</span>'
+            + '<span class="dot">&middot;</span>'
+            + '<span>' + slide.genre + '</span>'
+            + '</div>'
+            + '<p class="hero-desc">' + slide.desc + '</p>'
+            + '<div class="hero-actions">'
+            + '<button class="hero-btn-play" onclick="openWatch(' + slide.id + ')"><svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg> PLAY NOW</button>'
+            + '<button class="hero-btn-info" onclick="openWatch(' + slide.id + ')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg> MORE INFO</button>'
+            + '</div>'
+            + '</div>';
+        heroSlides.appendChild(div);
+
+        var dot = document.createElement('button');
+        dot.className = 'hero-dot' + (i === 0 ? ' active' : '');
+        dot.addEventListener('click', function() { goToHeroSlide(i); });
+        heroDots.appendChild(dot);
+    });
+
+    heroTimer = setInterval(function() {
+        goToHeroSlide((heroIndex + 1) % HERO_DATA.length);
+    }, 5000);
+}
+
+function goToHeroSlide(index) {
+    var slides = heroSlides.querySelectorAll('.hero-slide');
+    var dots = heroDots.querySelectorAll('.hero-dot');
+    if (!slides.length) return;
+    slides[heroIndex].classList.remove('active');
+    dots[heroIndex].classList.remove('active');
+    heroIndex = index;
+    slides[heroIndex].classList.add('active');
+    dots[heroIndex].classList.add('active');
+    clearInterval(heroTimer);
+    heroTimer = setInterval(function() {
+        goToHeroSlide((heroIndex + 1) % HERO_DATA.length);
+    }, 5000);
+}
+
+/* ===== TMDB ENRICHMENT ===== */
 async function resolveImdbToTmdb(imdbId) {
     if (!TMDB_API_KEY) return null;
     if (tmdbCache[imdbId]) return tmdbCache[imdbId];
@@ -309,48 +505,10 @@ async function enrichFromTMDB() {
     }
 }
 
-const ROW_CONFIG = [
-    { id: 'trending', title: 'Trending Now', type: null },
-    { id: 'new', title: 'New Releases', type: null, filter: function(item) { return item.year >= 2022; } },
-    { id: 'toprated', title: 'Top Rated', type: null, filter: function(item) { return parseFloat(item.rating) >= 8.2; } },
-    { id: 'korean', title: 'K-Dramas & Korean', type: null, filter: function(item) { return item.langs.some(function(l) { return l === 'Korean'; }); } },
-    { id: 'movies', title: 'Movies', type: 'movie' },
-    { id: 'series', title: 'Web Series', type: 'series' },
-    { id: 'classics', title: 'Classics', type: null, filter: function(item) { return item.year < 2000; } },
-    { id: 'zombie', title: 'Zombies & Horror', type: null, filter: function(item) { return item.desc.toLowerCase().includes('zombie') || item.desc.toLowerCase().includes('infected') || item.desc.toLowerCase().includes('rage') || item.title === 'I Am Legend'; } },
-    { id: 'bollywood', title: 'Bollywood', type: null, filter: function(item) { return item.category === 'bollywood'; } }
-];
-
-let loadedCounts = {};
-let currentFilter = 'all';
-let searchActive = false;
-let currentItem = null;
-
-const homeView = document.getElementById('homeView');
-const watchView = document.getElementById('watchView');
-const categoryRows = document.getElementById('categoryRows');
-const searchResults = document.getElementById('searchResults');
-const searchHeader = document.getElementById('searchHeader');
-const searchResultsTitle = document.getElementById('searchResultsTitle');
-const searchClear = document.getElementById('searchClear');
-const browseView = document.getElementById('browseView');
-const videoFrame = document.getElementById('videoFrame');
-const embedLoader = document.getElementById('embedLoader');
-const embedError = document.getElementById('embedError');
-const searchInput = document.getElementById('searchInput');
-const navLinks = document.querySelectorAll('.nav-links a');
-const backBtn = document.getElementById('backBtn');
-const sourceBtn = document.getElementById('sourceBtn');
-const fsBtn = document.getElementById('fsBtn');
-const watchTitle = document.getElementById('watchTitle');
-const watchMetaTitle = document.getElementById('watchMetaTitle');
-const watchMetaInfo = document.getElementById('watchMetaInfo');
-
-const rowCache = {};
-
+/* ===== CARD BUILDING ===== */
 function getItemsForRow(rowId) {
     if (rowCache[rowId]) return rowCache[rowId];
-    const config = ROW_CONFIG.find(r => r.id === rowId);
+    var config = ROW_CONFIG.find(function(r) { return r.id === rowId; });
     if (!config) return [];
     var items;
     if (config.filter) {
@@ -358,31 +516,39 @@ function getItemsForRow(rowId) {
     } else if (config.type) {
         items = contentData.filter(function(i) { return i.type === config.type; });
     } else {
-        items = [...contentData].sort(function() { return Math.random() - 0.5; });
+        items = contentData.slice().sort(function() { return Math.random() - 0.5; });
     }
     rowCache[rowId] = items;
     return items;
 }
 
 function createCard(item) {
-    const card = document.createElement('div');
+    var card = document.createElement('div');
     card.className = 'movie-card';
     card.dataset.id = item.id;
+    card.dataset.type = item.type || 'movie';
 
-    const langsHtml = item.langs.map(function(l) {
+    var langsHtml = item.langs.map(function(l) {
         return '<span class="lang">' + l + '</span>';
     }).join('');
 
-    card.innerHTML =
-        '<div class="movie-poster">'
-        + '<img src="' + item.poster + '" alt="' + item.title + '" loading="lazy" onerror="this.nextElementSibling.style.display=\'flex\';this.style.display=\'none\';">'
-        + '<div class="fallback-poster" style="display:none;"><div class="poster-label">' + item.title + '</div></div>'
-        + '<button class="movie-play-btn"></button>'
-        + '<div class="movie-hover-overlay">'
+    var cardInner = document.createElement('div');
+    cardInner.className = 'card-inner';
+
+    var hoverOverlay =
+        '<div class="movie-hover-overlay">'
+        + '<div class="movie-hover-actions">'
+        + '<button class="hover-play-btn" onclick="event.stopPropagation();openWatch(' + item.id + ',\'' + item.type + '\')"><svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg></button>'
+        + '</div>'
+        + '<div class="movie-hover-info">'
         + '<div class="movie-hover-title">' + item.title + '</div>'
+        + '<div class="movie-hover-genre">' + item.type + '</div>'
+        + '<div class="movie-hover-rating">'
+        + '<svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>'
+        + '<span>' + item.rating + '</span>'
+        + '</div>'
         + '<div class="movie-hover-meta">'
         + '<span>' + item.year + '</span>'
-        + '<span>' + item.rating + '</span>'
         + '<span class="quality-badge">' + item.quality + '</span>'
         + '</div>'
         + '<div class="movie-hover-desc">' + item.desc + '</div>'
@@ -390,17 +556,27 @@ function createCard(item) {
         + '</div>'
         + '</div>';
 
-    card.addEventListener('click', function() { openWatch(item.id); });
+    cardInner.innerHTML =
+        '<div class="movie-poster">'
+        + '<img src="' + item.poster + '" alt="' + item.title + '" loading="lazy" onerror="this.nextElementSibling.style.display=\'flex\';this.style.display=\'none\';">'
+        + '<div class="fallback-poster" style="display:none;"><div class="poster-label">' + item.title + '</div></div>'
+        + '<div class="movie-hd-badge">HD</div>'
+        + hoverOverlay
+        + '</div>';
+
+    card.appendChild(cardInner);
+    card.addEventListener('click', function() { openWatch(item.id, item.type); });
     return card;
 }
 
+/* ===== ROW LOADING & RENDERING ===== */
 function loadMoreRow(rowId) {
-    const allItems = getItemsForRow(rowId);
-    const loaded = loadedCounts[rowId] || 0;
+    var allItems = getItemsForRow(rowId);
+    var loaded = loadedCounts[rowId] || 0;
     if (loaded >= allItems.length) return;
-    const track = document.getElementById('track-' + rowId);
+    var track = document.getElementById('track-' + rowId);
     if (!track) return;
-    const nextBatch = allItems.slice(loaded, loaded + ITEMS_PER_LOAD);
+    var nextBatch = allItems.slice(loaded, loaded + ITEMS_PER_LOAD);
     nextBatch.forEach(function(item) {
         track.appendChild(createCard(item));
     });
@@ -408,10 +584,10 @@ function loadMoreRow(rowId) {
 }
 
 function renderRow(rowId) {
-    const allItems = getItemsForRow(rowId);
-    const loaded = loadedCounts[rowId] || 0;
-    const itemsToShow = allItems.slice(0, loaded);
-    const track = document.getElementById('track-' + rowId);
+    var allItems = getItemsForRow(rowId);
+    var loaded = loadedCounts[rowId] || 0;
+    var itemsToShow = allItems.slice(0, loaded);
+    var track = document.getElementById('track-' + rowId);
     if (!track) return;
     track.innerHTML = '';
     itemsToShow.forEach(function(item) {
@@ -421,9 +597,9 @@ function renderRow(rowId) {
 }
 
 function fillRow(rowId) {
-    const track = document.getElementById('track-' + rowId);
+    var track = document.getElementById('track-' + rowId);
     if (!track) return;
-    const allItems = getItemsForRow(rowId);
+    var allItems = getItemsForRow(rowId);
     var loaded = loadedCounts[rowId] || 0;
     if (loaded >= allItems.length) return;
     if (track.scrollWidth > track.clientWidth + 20) return;
@@ -432,72 +608,70 @@ function fillRow(rowId) {
 }
 
 function onRowScroll(rowId) {
-    const track = document.getElementById('track-' + rowId);
+    var track = document.getElementById('track-' + rowId);
     if (!track) return;
-    const allItems = getItemsForRow(rowId);
-    const loaded = loadedCounts[rowId] || 0;
+    var allItems = getItemsForRow(rowId);
+    var loaded = loadedCounts[rowId] || 0;
     if (loaded >= allItems.length) return;
-
-    const threshold = 200;
-    const scrolledToEnd = track.scrollLeft + track.clientWidth >= track.scrollWidth - threshold;
+    var threshold = 200;
+    var scrolledToEnd = track.scrollLeft + track.clientWidth >= track.scrollWidth - threshold;
     if (scrolledToEnd) {
         loadMoreRow(rowId);
     }
 }
 
 function scrollRow(rowId, direction) {
-    const track = document.getElementById('track-' + rowId);
+    var track = document.getElementById('track-' + rowId);
     if (!track) return;
-    const card = track.querySelector('.movie-card');
-    const scrollAmount = card ? card.offsetWidth * 3 + 8 * 3 : 600;
+    var card = track.querySelector('.movie-card');
+    var scrollAmount = card ? card.offsetWidth * 3 + 8 * 3 : 600;
     track.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
 }
 
+/* ===== BUILD ROWS ===== */
 function buildRows() {
     categoryRows.innerHTML = '';
     ROW_CONFIG.forEach(function(config) {
         loadedCounts[config.id] = ITEMS_PER_LOAD;
-        const section = document.createElement('section');
+        var section = document.createElement('section');
         section.className = 'category-row';
 
-        const header = document.createElement('div');
+        var header = document.createElement('div');
         header.className = 'row-header';
 
-        const title = document.createElement('h3');
+        var title = document.createElement('h3');
         title.className = 'row-title';
-        title.textContent = config.title;
-        header.appendChild(title);
 
-        const trackWrapper = document.createElement('div');
+        var icon = ROW_ICONS[config.id] || ROW_ICONS._default;
+        title.innerHTML = '<span class="row-icon">' + icon + '</span>' + config.title;
+        header.appendChild(title);
+        section.appendChild(header);
+
+        var trackWrapper = document.createElement('div');
         trackWrapper.className = 'row-track-wrapper';
 
-        const controls = document.createElement('div');
-        controls.className = 'row-controls';
-
-        const scrollLeft = document.createElement('button');
-        scrollLeft.className = 'scroll-btn-circle scroll-left';
+        var scrollLeft = document.createElement('button');
+        scrollLeft.className = 'scroll-btn left';
         scrollLeft.setAttribute('aria-label', 'Scroll left');
+        scrollLeft.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>';
 
-        const scrollRight = document.createElement('button');
-        scrollRight.className = 'scroll-btn-circle scroll-right';
+        var scrollRight = document.createElement('button');
+        scrollRight.className = 'scroll-btn right';
         scrollRight.setAttribute('aria-label', 'Scroll right');
+        scrollRight.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>';
 
         scrollLeft.addEventListener('click', function() { scrollRow(config.id, -1); });
         scrollRight.addEventListener('click', function() { scrollRow(config.id, 1); });
 
-        controls.appendChild(scrollLeft);
-        controls.appendChild(scrollRight);
-        header.appendChild(controls);
+        trackWrapper.appendChild(scrollLeft);
+        trackWrapper.appendChild(scrollRight);
 
-        const track = document.createElement('div');
+        var track = document.createElement('div');
         track.className = 'row-track';
         track.id = 'track-' + config.id;
-
         track.addEventListener('scroll', function() { onRowScroll(config.id); });
 
         trackWrapper.appendChild(track);
-
-        section.appendChild(header);
         section.appendChild(trackWrapper);
         categoryRows.appendChild(section);
 
@@ -505,18 +679,56 @@ function buildRows() {
     });
 }
 
-function renderSearchResults(query) {
-    const q = query.toLowerCase().trim();
-    if (!q) {
-        searchResults.classList.add('hidden');
+/* ===== GENRE GRID ===== */
+function buildGenreGrid() {
+    if (!genreGrid) return;
+    genreGrid.innerHTML = '';
+    GENRES.forEach(function(genre) {
+        var card = document.createElement('div');
+        card.className = 'genre-card';
+        card.innerHTML =
+            '<div class="genre-card-bg"><img src="' + genre.img + '" alt="' + genre.label + '" loading="lazy"></div>'
+            + '<div class="genre-card-gradient"></div>'
+            + '<div class="genre-card-label">' + genre.label.toUpperCase() + '</div>';
+        card.addEventListener('click', function() {
+            searchInput.value = genre.label;
+            openSearchOverlay();
+            renderSearchResults(genre.label);
+        });
+        genreGrid.appendChild(card);
+    });
+}
+
+/* ===== SEARCH OVERLAY ===== */
+function openSearchOverlay() {
+    if (searchOverlay) {
+        searchOverlay.classList.add('active');
+        document.documentElement.classList.add('lock-scroll');
+        var resultsEl = document.querySelector('.search-overlay-results');
+        if (resultsEl) resultsEl.scrollTop = 0;
+        setTimeout(function() { searchInput.focus(); }, 100);
+    }
+}
+
+function closeSearchOverlay() {
+    if (searchOverlay) {
+        searchOverlay.classList.remove('active');
+        document.documentElement.classList.remove('lock-scroll');
+        searchInput.value = '';
+        searchResults.innerHTML = '';
         searchHeader.classList.add('hidden');
-        browseView.classList.remove('hidden');
-        searchActive = false;
+    }
+}
+
+function renderSearchResults(query) {
+    var q = query.toLowerCase().trim();
+    if (!q) {
+        searchResults.innerHTML = '';
+        searchHeader.classList.add('hidden');
         return;
     }
 
-    searchActive = true;
-    const matches = contentData.filter(function(item) {
+    var matches = contentData.filter(function(item) {
         return item.title.toLowerCase().includes(q)
             || item.desc.toLowerCase().includes(q)
             || item.langs.some(function(l) { return l.toLowerCase().includes(q); })
@@ -525,9 +737,9 @@ function renderSearchResults(query) {
 
     searchResultsTitle.textContent = 'Results for "' + query + '"' + (matches.length ? ' (' + matches.length + ')' : '');
     searchHeader.classList.remove('hidden');
-    browseView.classList.add('hidden');
-    searchResults.classList.remove('hidden');
     searchResults.innerHTML = '';
+    var resultsEl = document.querySelector('.search-overlay-results');
+    if (resultsEl) resultsEl.scrollTop = 0;
 
     if (matches.length === 0) {
         searchResults.innerHTML = '<div class="no-results" style="grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--text-muted);"><p style="font-size:15px;">No results found</p><p style="font-size:12px;margin-top:4px;">Try a different search term</p></div>';
@@ -539,6 +751,7 @@ function renderSearchResults(query) {
     });
 }
 
+/* ===== WATCH / PLAYER ===== */
 function buildEmbedUrl(item) {
     var source = SOURCES[currentSource];
     var id = getSourceId(item);
@@ -546,6 +759,18 @@ function buildEmbedUrl(item) {
         embedError.textContent = 'No ID available for this source. Try switching to another source.';
         embedError.classList.remove('hidden');
         return '';
+    }
+    if (source.name === 'CineSrc') {
+        if (item.type === 'series') {
+            return source.url + 'tv/' + id + '?s=' + currentSeason + '&e=' + currentEpisode;
+        }
+        return source.url + 'movie/' + id;
+    }
+    if (source.name === 'Source 5') {
+        if (item.type === 'series') {
+            return source.url + 'tv/' + id + '/' + currentSeason + '/' + currentEpisode;
+        }
+        return source.url + 'movie/' + id;
     }
     if (source.name === 'VidEasy') {
         var qs = '?nextEpisode=true&autoplayNextEpisode=true&episodeSelector=true&overlay=true&color=8B5CF6';
@@ -560,22 +785,29 @@ function buildEmbedUrl(item) {
     return source.url + id;
 }
 
-function openWatch(id) {
+function openWatch(id, type) {
     var item = contentData.find(function(i) { return i.id === id; });
-    if (!item) return;
+    if (!item) {
+        item = { id: id, title: 'Movie', type: type || 'movie', year: '', rating: '', quality: '4K', desc: '', langs: ['English'], poster: '', imdbId: '', tmdbId: id };
+    }
+
+    closeSearchOverlay();
 
     currentItem = item;
+    setMovieUrl(item);
     currentEpisode = 1;
     currentSeason = 1;
     sourceBtn.textContent = SOURCES[currentSource].name;
-    watchMetaTitle.textContent = item.title + ' (' + item.year + ')';
+    watchMetaTitle.textContent = item.title + (item.year ? ' (' + item.year + ')' : '');
     watchTitle.textContent = 'Now Playing - ' + item.title;
-    watchMetaInfo.innerHTML = '<span>' + item.year + '</span><span>' + item.rating + '</span>'
-        + '<span style="background:var(--accent);color:var(--bg);padding:1px 6px;border-radius:2px;font-size:11px;font-weight:700;">' + item.quality + '</span>'
+    watchMetaInfo.innerHTML = (item.year ? '<span>' + item.year + '</span>' : '')
+        + (item.rating ? '<span>' + item.rating + '</span>' : '')
+        + (item.quality ? '<span style="background:var(--accent);color:var(--bg);padding:1px 6px;border-radius:2px;font-size:11px;font-weight:700;">' + item.quality + '</span>' : '')
         + '<span style="background:var(--accent-dim);color:var(--accent);padding:1px 6px;border-radius:2px;font-size:11px;font-weight:700;">' + (item.type === 'movie' ? 'Movie' : 'Series') + '</span>';
 
     homeView.classList.add('hidden');
     watchView.classList.remove('hidden');
+    if (siteFooter) siteFooter.classList.add('hidden');
     embedError.textContent = '';
     embedError.classList.add('hidden');
     updateEpisodeVisibility();
@@ -595,8 +827,10 @@ function loadPlayer() {
 function goHome() {
     watchView.classList.add('hidden');
     homeView.classList.remove('hidden');
+    if (siteFooter) siteFooter.classList.remove('hidden');
     videoFrame.src = '';
     currentItem = null;
+    history.replaceState(null, '', window.location.pathname);
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -617,6 +851,14 @@ function renderEpisodes() {
 function selectEpisode(num) {
     currentEpisode = num;
     renderEpisodes();
+    var source = SOURCES[currentSource];
+    if (currentItem) {
+        if (source.usesPostMessage) {
+            embedLoader.classList.remove('hidden');
+            embedError.classList.add('hidden');
+            loadPlayer();
+        }
+    }
 }
 
 function updateEpisodeVisibility() {
@@ -631,15 +873,15 @@ function handleFilter(filter) {
         link.classList.toggle('active', link.dataset.filter === filter);
     });
 
-    if (searchActive) return;
-
     var rows = categoryRows.querySelectorAll('.category-row');
     rows.forEach(function(row) {
-        var rowId = row.querySelector('.row-track').id.replace('track-', '');
+        var track = row.querySelector('.row-track');
+        if (!track) return;
+        var rowId = track.id.replace('track-', '');
         var config = ROW_CONFIG.find(function(r) { return r.id === rowId; });
         if (filter === 'all') {
             row.style.display = '';
-        } else if (config.type === filter) {
+        } else if (config && config.type === filter) {
             row.style.display = '';
         } else {
             row.style.display = 'none';
@@ -647,9 +889,16 @@ function handleFilter(filter) {
     });
 }
 
+/* ===== EVENT LISTENERS ===== */
 videoFrame.addEventListener('load', function() { embedLoader.classList.add('hidden'); });
-videoFrame.addEventListener('error', function() { embedLoader.classList.add('hidden'); embedError.textContent = 'Failed to load video from ' + SOURCES[currentSource].name + '. Try another source.'; embedError.classList.remove('hidden'); });
+videoFrame.addEventListener('error', function() {
+    embedLoader.classList.add('hidden');
+    embedError.textContent = 'Failed to load video from ' + SOURCES[currentSource].name + '. Try another source.';
+    embedError.classList.remove('hidden');
+});
+
 backBtn.addEventListener('click', goHome);
+
 fsBtn.addEventListener('click', function() {
     var wrap = document.querySelector('.watch-player-wrap');
     if (!document.fullscreenElement && !document.webkitFullscreenElement && !document.mozFullScreenElement) {
@@ -695,8 +944,17 @@ sourceBtn.addEventListener('click', function() {
 });
 
 document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape' && !watchView.classList.contains('hidden')) goHome();
+    if (e.key === 'Escape') {
+        if (searchOverlay && searchOverlay.classList.contains('active')) {
+            closeSearchOverlay();
+        } else if (!watchView.classList.contains('hidden')) {
+            goHome();
+        }
+    }
 });
+
+searchOpenBtn.addEventListener('click', openSearchOverlay);
+searchCloseBtn.addEventListener('click', closeSearchOverlay);
 
 searchInput.addEventListener('input', function() {
     renderSearchResults(searchInput.value);
@@ -708,23 +966,26 @@ searchInput.addEventListener('keydown', function(e) {
 
 searchClear.addEventListener('click', function() {
     searchInput.value = '';
-    renderSearchResults('');
-    browseView.classList.remove('hidden');
+    searchResults.innerHTML = '';
     searchHeader.classList.add('hidden');
-    searchActive = false;
-    handleFilter(currentFilter);
+    searchInput.focus();
 });
 
 navLinks.forEach(function(link) {
     link.addEventListener('click', function(e) {
         e.preventDefault();
-        if (!homeView.classList.contains('hidden')) handleFilter(link.dataset.filter);
+        closeSearchOverlay();
+        if (searchOverlay) searchOverlay.classList.remove('active');
+        goHome();
+        handleFilter(link.dataset.filter);
     });
 });
 
 document.getElementById('logoLink').addEventListener('click', function(e) {
     e.preventDefault();
+    closeSearchOverlay();
     goHome();
+    handleFilter('all');
 });
 
 /* ===== THEME TOGGLE ===== */
@@ -749,10 +1010,20 @@ document.getElementById('themeToggle').addEventListener('click', function() {
     }, 300);
 });
 
-buildRows();
-handleFilter('all');
-enrichFromTMDB();
+/* ===== NAVBAR SCROLL EFFECT ===== */
+var lastScrollY = 0;
+window.addEventListener('scroll', function() {
+    if (navbar) {
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    }
+    lastScrollY = window.scrollY;
+});
 
+/* ===== PAGE LOADER ===== */
 function hideLoader() {
     var loader = document.getElementById('pageLoader');
     if (loader && !loader.classList.contains('fade-out')) {
@@ -767,6 +1038,7 @@ window.addEventListener('load', function() {
     setTimeout(hideLoader, 400);
 });
 
+/* ===== RESIZE HANDLER ===== */
 var resizeTimer;
 window.addEventListener('resize', function() {
     clearTimeout(resizeTimer);
@@ -775,3 +1047,64 @@ window.addEventListener('resize', function() {
     }, 300);
 });
 
+/* ===== CINESRC POSTMESSAGE LISTENER ===== */
+window.addEventListener('message', function(e) {
+    if (e.origin !== 'https://cinesrc.st') return;
+    var data;
+    try { data = typeof e.data === 'string' ? JSON.parse(e.data) : e.data; } catch (err) { return; }
+    if (!data || !data.type) return;
+
+    if (data.type === 'cinesrc:ready') {
+        embedLoader.classList.add('hidden');
+    }
+    if (data.type === 'cinesrc:error') {
+        embedLoader.classList.add('hidden');
+        embedError.textContent = 'Stream error: ' + (data.error || 'Unknown error');
+        embedError.classList.remove('hidden');
+    }
+    if (data.type === 'cinesrc:timeupdate' && data.currentTime !== undefined) {
+        var elapsed = formatTime(data.currentTime);
+        var total = formatTime(data.duration);
+        var timeEl = document.getElementById('playerTime');
+        if (timeEl) timeEl.textContent = elapsed + ' / ' + total;
+    }
+    if (data.type === 'cinesrc:nextepisode' && data.season && data.episode) {
+        if (!data.internalNavigation) {
+            currentSeason = data.season;
+            currentEpisode = data.episode;
+            if (currentItem) {
+                loadPlayer();
+            }
+        }
+    }
+});
+
+function formatTime(s) {
+    if (!s || isNaN(s)) return '0:00';
+    var h = Math.floor(s / 3600);
+    var m = Math.floor((s % 3600) / 60);
+    var sec = Math.floor(s % 60);
+    if (h > 0) return h + ':' + (m < 10 ? '0' : '') + m + ':' + (sec < 10 ? '0' : '') + sec;
+    return m + ':' + (sec < 10 ? '0' : '') + sec;
+}
+
+function sendCinesrcCommand(command, args) {
+    var source = SOURCES[currentSource];
+    if (!source.usesPostMessage) return;
+    if (!videoFrame.contentWindow) return;
+    videoFrame.contentWindow.postMessage({
+        type: 'cinesrc:command',
+        command: command,
+        args: args || []
+    }, 'https://cinesrc.st');
+}
+
+/* ===== INIT ===== */
+buildHero();
+buildRows();
+buildGenreGrid();
+handleFilter('all');
+enrichFromTMDB();
+
+window.addEventListener('hashchange', handleRoute);
+handleRoute();
